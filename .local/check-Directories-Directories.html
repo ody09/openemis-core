@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="rtl">
+<head>
+	<meta charset="utf-8"/>	<title>OpenEMIS Core</title>
+
+	<link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/><meta name="viewport" content="width=320, initial-scale=1"/><link rel="stylesheet" href="/open_emis/css/reset.css"/><link rel="stylesheet" href="/open_emis/css/lib/jquery/jquery-ui.min.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/font-awesome/css/font-awesome.min.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/fuelux/css/fuelux.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/bootstrap/css/bootstrap.min.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/scrolltabs/css/scrolltabs.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/slider/css/bootstrap-slider.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/ng-scrolltabs/css/angular-ui-tab-scroll.css"/><link rel="stylesheet" href="/open_emis/css/../plugins/toggle-switch/toggle-switch.css"/><link rel="stylesheet" href="/open_emis/css/master.min.css"/><link rel="stylesheet" href="/open_emis/css/themes/core/layout.min.css"/><link rel="stylesheet" href="/css/themes/layout.min.css?timestamp=1749721150" >
+<!--[if gte IE 9]>
+<link rel="stylesheet" href="/open_emis/css/ie/ie9-fixes.css"/><![endif]--><link rel="stylesheet" href="/controller_action/css/../plugins/jasny/css/jasny-bootstrap.min.css"/><link rel="stylesheet" href="/css/highchart-override.css"/><script src="/open_emis/js/lib/css_browser_selector.js"></script><script src="/open_emis/js/lib/respond.js"></script><script src="/open_emis/js/lib/jquery/jquery.min.js"></script><script src="/open_emis/js/lib/jquery/jquery-ui.min.js"></script><script src="/open_emis/js/lib/angular/angular.min.js"></script><script src="/open_emis/js/lib/angular/angular-animate.min.js"></script><script src="/open_emis/js/angular/kd-angular-elem-sizes.js"></script><script src="/open_emis/js/angular/kd-angular-checkbox-radio-button.js"></script><script src="/open_emis/js/angular/kd-angular-multi-select/kd-angular-multi-select.js"></script><script src="/open_emis/js/angular/kd-angular-treedropdown.js"></script><script src="/open_emis/js/angular/kd-angular-ag-grid.js"></script><script src="/open_emis/js/lib/holder.js"></script><script src="/open_emis/js/lib/angular/ui-bootstrap-tpls.min.js"></script><script src="/open_emis/js/angular/kd-angular-advanced-search.ctrl.js"></script><script src="/open_emis/js/jquery/jq.mobile-menu.js"></script><script src="/open_emis/js/jquery/jq.loader.js"></script><script src="/open_emis/js/jquery/jq.chosen.js"></script><script src="/open_emis/js/jquery/jq.checkable.js"></script><script src="/open_emis/js/jquery/jq.datetime-picker.js"></script><script src="/open_emis/js/jquery/jq.table.js"></script><script src="/open_emis/js/jquery/jq.tabs.js"></script><script src="/open_emis/js/jquery/jq.tooltip.js"></script><script src="/open_emis/js/jquery/jq.header.js"></script><script src="/open_emis/js/../plugins/bootstrap/js/bootstrap.min.js"></script><script src="/open_emis/js/../plugins/fuelux/js/fuelux.js"></script><script src="/open_emis/js/../plugins/slider/js/bootstrap-slider.js"></script><script src="/open_emis/js/../plugins/ng-scrolltabs/js/angular-ui-tab-scroll.js"></script><script src="/open_emis/js/../plugins/ag-grid-enterprise/dist/ag-grid-enterprise.min.js"></script><script src="/open_emis/js/../plugins/multi-select-tree/dist/angular-multi-select-tree-0.1.0.js"></script><script src="/open_emis/js/../plugins/multi-select-tree/dist/angular-multi-select-tree-0.1.0.tpl.js"></script><script src="/controller_action/js/controller.action.js"></script><script src="/js/doughnutchart/Chart.min.js"></script><script src="/js/doughnutchart/Chart.Doughnut.js"></script><script src="/js/app/shared/ngSlider/slider.js"></script><script src="/js/app/app.ctrl.js"></script><script src="/js/app/app.svc.js"></script><script src="/js/app/services/app/utils.svc.js"></script><script src="/restful/js/kd.orm.svc.js"></script><script src="/restful/js/kd.data.svc.js"></script><script src="/js/app/services/app/aggrid.locale.svc.js"></script><script src="/js/app/services/app/kd.session.svc.js"></script><script src="/js/app/services/app/kd.access.svc.js"></script><script src="/area/js/tree/sg.tree.ctrl.js"></script><script src="/js/angularJs/kdModule/controllers/kd.ctrl.js"></script><script src="/js/angularJs/kdModule/directives/kd.drt.js"></script><script src="/js/angularJs/kdModule/services/kd.common.svc.js"></script><script src="/js/angularJs/kdModule/kd.module.js"></script><script src="/assessment/js/angular/assessments/assessmentAdminModule.js"></script><script src="/js/app.js"></script><script src="/js/app.table.js"></script><script src="/js/config.js"></script><script src="/area/js/tree/sg.tree.svc.js"></script><script src="/controller_action/js/../plugins/jasny/js/jasny-bootstrap.min.js"></script><script src="/open_emis/js/../plugins/scrolltabs/js/jquery.mousewheel.js"></script><script src="/open_emis/js/../plugins/scrolltabs/js/jquery.scrolltabs.js"></script><script src="/controller_action/js/../plugins/datepicker/locales/bootstrap-datepicker.ar.min.js"></script><script type="text/javascript">
+var APP_CONFIGS = {
+    'ngApp' : 'OE_Core'
+};
+
+agGrid.initialiseAgGridWithAngular1(angular);
+
+//POCOR-8483[START]
+//POCOR-8483[END]
+
+angular.module('OE_Core', ["bgDirectives","ui.bootstrap","ui.bootstrap-slider","ui.tab.scroll","agGrid","app.ctrl","advanced.search.ctrl","kd-elem-sizes","kd-angular-checkbox-radio","multi-select-tree","kd-angular-tree-dropdown","kd-angular-ag-grid","sg.tree.ctrl","sg.tree.svc"]).run(function() {
+    agGrid.LicenseManager.setLicenseKey("Community_Solutions_Foundation_CSF_Devs_13_October_2018__MTUzOTM4NTIwMDAwMA==500b28c724d110b0af8aa885bf13c66a");
+    angular.baseUrl = '';
+    angular.url = function(url) {
+        return angular.baseUrl + '/' + url;
+    }
+})
+.config(['$locationProvider', function($locationProvider){
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false,
+        rewriteLinks: false
+    });
+}]);
+</script>
+</head>
+
+
+<body class='fuelux' ng-controller="AppCtrl">
+
+	
+<header>
+	<nav class="navbar navbar-fixed-top">
+		<div class="navbar-left">
+			<div class="menu-handler">
+				<button class="menu-toggle" type="button">
+					<i class="fa fa-bars"></i>
+				</button>
+			</div>
+			<a href="/Dashboard">
+				<div class="brand-logo">
+										<i class="kd-openemis"></i>
+										<h1>OpenEMIS Core</h1>
+				</div>
+			</a>
+		</div>
+				<div class="navbar-right">
+			<div class="header-navigation">
+	 <!--POCOR-7164-->
+	<div class="username">
+		<span>System   Administrator</span>
+		<a class="btn" data-toggle="tooltip" data-placement="bottom" data-html="true" title="System Administrator"><i class="kd-role"></i></a>
+	</div>
+
+	<div class="btn-group">
+        <a class="btn" href="/Dashboard">
+            <i class="fa fa-home"></i>
+        </a>
+        <!--POCOR-7210  start -->
+        		    <a class="btn" href="/Systems/Systems/SystemNotices">
+		        <i class="fa fa-envelope fa-lg notification-dot"></i>
+		    </a>
+		 <!-- POCOR-7210 end -->
+
+    </div>
+	
+    
+<div class="btn-group">
+	<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+		<i class="fa kd-grid"></i>
+	</a>
+
+	<div aria-labelledby="dropdownMenu" role="menu" class="dropdown-menu product-lists col-xs-12">
+		<div class="dropdown-arrow">
+			<i class="fa fa-caret-up"></i>
+		</div>
+
+		<div class="product-wrapper">
+					<div class="product-menu col-xs-4">
+				<a href="/Login/"><i class="kd-openemis"></i><span>OpenEMIS Dashboard</span></a>			</div>
+					<div class="product-menu col-xs-4">
+				<a href="/Login/"><i class="kd-openemis"></i><span>OpenEMIS Integrator</span></a>			</div>
+				</div>
+	</div>
+</div>
+
+	<div class="btn-group">
+		<button class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+			<i class="fa kd-ellipsis"></i>
+		</button>
+
+		<ul aria-labelledby="dropdownMenu" role="menu" class="dropdown-menu more-menu">
+			<div class="dropdown-arrow"><i class="fa fa-caret-up"></i></div>
+			<div class="more-menu-item">
+				<li><a href="/About" url=" About index" icon="fa-info-circle"><i class="fa fa-info-circle"></i><span> عن النظام</span></a></li><li><a href="/Preferences" url=" Preferences index" icon="fa-cog"><i class="fa fa-cog"></i><span> بيانات الحساب </span></a></li><li><a href="https://support.openemis.org/" url="https://support.openemis.org/" icon="fa-question-circle" target="_blank"><i class="fa fa-question-circle"></i><span> مساعدة</span></a></li><li><a href="/Users/logout" url="User Users logout" icon="fa-power-off"><i class="fa fa-power-off"></i><span> الخروج</span></a></li>			</div>
+		</ul>
+	</div>
+	 <!--POCOR-7164-->
+</div>
+		</div>
+			</nav>
+</header>
+
+	<bg-splitter orientation="horizontal" class="pane-wrapper" resize-callback="splitterDragCallback" elements="getSplitterElements">
+		<bg-pane id="leftPane" class="left-pane" max-size-p="30">
+			<div class="pane-container">
+				
+<div class="left-menu">
+	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<ul id="nav-menu-1" class="nav nav-level-1 collapse in" role="tabpanel" data-level="1"><li><a href="/Profiles/Profiles/Personal/view/eyJpZCI6MSwidXNlcl9pZCI6MX0.ZTViYWJmNDFmZjFjNGIyMTdmNjE2ZDc0YTI2YzA3OTI0ZDJjNGQ4YzU4NDdhN2JjMGU4MzNjODQ4NmU0ZTI5YQ" id="Profiles-Personal-view-eyJpZCI6MSwidXNlcl9pZCI6MX0.ZTViYWJmNDFmZjFjNGIyMTdmNjE2ZDc0YTI2YzA3OTI0ZDJjNGQ4YzU4NDdhN2JjMGU4MzNjODQ4NmU0ZTI5YQ"><span><i class="fa kd-role"></i></span><b>شخصي</b></a><li><a href="/Institutions/Institutions/index" id="Institutions-Institutions-index"><span><i class="fa kd-institutions"></i></span><b>المؤسسات</b></a><li><a class="accordion-toggle panel-heading collapsed" href="/Directory/Directories/Directories/index" data-toggle="" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-2"><span><span><i class="fa kd-guardian"></i></span><b>الفهرس</b></span></a><ul id="nav-menu-2" class="nav nav-level-2 collapse" role="tabpanel" data-level="2"><li><a href="/Directory/Directories/Directories/view/eyJpZCI6bnVsbH0.Y2ZlYjg0ZjUyZTcyOGE4NzQ5NzUyZDc5N2Q5MjVhN2NhMmRjMTE0YmI4Nzk0Mzk4NTQwNjY0OGNkODAyMjIzZQ" id="Directories-Directories-view-eyJpZCI6bnVsbH0.Y2ZlYjg0ZjUyZTcyOGE4NzQ5NzUyZDc5N2Q5MjVhN2NhMmRjMTE0YmI4Nzk0Mzk4NTQwNjY0OGNkODAyMjIzZQ">عام</a><li><a href="/Directory/Directories/Healths/index/eyJzdGFmZl9pZCI6bnVsbCwic2VjdXJpdHlfdXNlcl9pZCI6bnVsbH0.Y2JiODVkMzM2N2EwZmVhNzAzYTUyMmU2ODgzOTNiMmFmMGMxOGM0Yzk0ZGExZDVmMzYzNTZiOTdjNzhjMmJiMw" id="Directories-Healths-index-eyJzdGFmZl9pZCI6bnVsbCwic2VjdXJpdHlfdXNlcl9pZCI6bnVsbH0.Y2JiODVkMzM2N2EwZmVhNzAzYTUyMmU2ODgzOTNiMmFmMGMxOGM0Yzk0ZGExZDVmMzYzNTZiOTdjNzhjMmJiMw">الصحة</a><li><a href="/Directory/Directories/Employments/index/eyJzdGFmZl9pZCI6bnVsbCwic2VjdXJpdHlfdXNlcl9pZCI6bnVsbH0.Y2JiODVkMzM2N2EwZmVhNzAzYTUyMmU2ODgzOTNiMmFmMGMxOGM0Yzk0ZGExZDVmMzYzNTZiOTdjNzhjMmJiMw" id="Directories-Employments-index-eyJzdGFmZl9pZCI6bnVsbCwic2VjdXJpdHlfdXNlcl9pZCI6bnVsbH0.Y2JiODVkMzM2N2EwZmVhNzAzYTUyMmU2ODgzOTNiMmFmMGMxOGM0Yzk0ZGExZDVmMzYzNTZiOTdjNzhjMmJiMw">التطوير المهني</a><li><a href="/Directory/Directories/SpecialNeedsReferrals/index/eyJzdGFmZl9pZCI6bnVsbCwic2VjdXJpdHlfdXNlcl9pZCI6bnVsbH0.Y2JiODVkMzM2N2EwZmVhNzAzYTUyMmU2ODgzOTNiMmFmMGMxOGM0Yzk0ZGExZDVmMzYzNTZiOTdjNzhjMmJiMw" id="Directories-SpecialNeedsReferrals-index-eyJzdGFmZl9pZCI6bnVsbCwic2VjdXJpdHlfdXNlcl9pZCI6bnVsbH0.Y2JiODVkMzM2N2EwZmVhNzAzYTUyMmU2ODgzOTNiMmFmMGMxOGM0Yzk0ZGExZDVmMzYzNTZiOTdjNzhjMmJiMw">ذوي الإعاقة</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-3" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-3"><span><span><i class="fa kd-reports"></i></span><b>تقارير</b></span></a><ul id="nav-menu-3" class="nav nav-level-2 collapse" role="tabpanel" data-level="2"><li><a href="/Reports/Institutions" id="Reports-Institutions">المؤسسات</a><li><a href="/Map/Map" id="Map-index">الخريطة</a><li><a href="/Reports/Textbooks" id="Reports-Textbooks">الكتب المدرسية</a><li><a href="/Reports/Students" id="Reports-Students">الطلاب</a><li><a href="/Reports/Staff" id="Reports-Staff">الموظفون</a><li><a href="/Reports/Trainings" id="Reports-Trainings">دورات تدريبية</a><li><a href="/Reports/InstitutionInfrastructures" id="Reports-InstitutionInfrastructures">البنية التحتية</a><li><a href="/Reports/Performance" id="Reports-Performance">مؤشرات الأداء (التقويم)</a><li><a href="/Reports/Examinations" id="Reports-Examinations">الامتحانات</a><li><a href="/Reports/Scholarships" id="Reports-Scholarships">Scholarships</a><li><a href="/Reports/Meals" id="Reports-Meals">الوجبات</a><li><a href="/Reports/Surveys" id="Reports-Surveys">المسوح الالكترونية</a><li><a href="/Reports/InstitutionRubrics" id="Reports-InstitutionRubrics">سلالم التقدير</a><li><a href="/Reports/DataQuality" id="Reports-DataQuality">جودة البيانات</a><li><a href="/Reports/Audits" id="Reports-Audits">Audits</a><li><a href="/Reports/Workflows" id="Reports-Workflows">مـخطط ســير العمـل</a><li><a href="/Reports/UisStatistics" id="Reports-UisStatistics">UIS Statistics</a><li><a href="/Reports/CustomReports" id="Reports-CustomReports">مخصّص</a><li><a href="/Reports/Directory" id="Reports-Directory">الفهرس</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-4" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-4"><span><span><i class="fa fa-cogs"></i></span><b>إدارة النظام</b></span></a><ul id="nav-menu-4" class="nav nav-level-2 collapse" role="tabpanel" data-level="2"><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-5" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-5"><span>إعداد النظام</span></a><ul id="nav-menu-5" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Areas/Areas/Areas" id="Areas-Areas">الحدود الإدارية</a><li><a href="/AcademicPeriods/AcademicPeriods/Periods" id="AcademicPeriods-Periods">الفترات الأكاديمية</a><li><a href="/Educations/Educations/Systems" id="Educations-Systems">هيكل التعليم</a><li><a href="/Attendances/StudentMarkTypes" id="Attendances-StudentMarkTypes">الحضور</a><li><a href="/FieldOptions/FieldOptions" id="FieldOptions-index">خيارات الحقل</a><li><a href="/Labels" id="-Labels-Labels">مسميات الحقول</a><li><a href="/Configurations/Configurations" id="Configurations-index">إعدادات النظام</a><li><a href="/Manuals/Manuals/Institutions" id="Manuals-Institutions">Manuals</a><li><a href="/Risk/Risks/Risks" id="Risks-Risks">Risks</a><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-6" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-6"><span>Webhooks</span></a><ul id="nav-menu-6" class="nav nav-level-4 collapse" role="tabpanel" data-level="4"><li><a href="/Webhooks/Webhooks" id="Webhooks-Webhooks">الإعداد</a><li><a href="/Webhook" id="Webhook-WebhookQueue">Queue</a><li><a href="/Webhook/WebhookLogs" id="Webhook-WebhookLogs">Log</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-7" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-7"><span>حقل مخصص</span></a><ul id="nav-menu-7" class="nav nav-level-4 collapse" role="tabpanel" data-level="4"><li><a href="/InstitutionCustomFields/InstitutionCustomFields/Fields" id="InstitutionCustomFields-Fields">المؤسسة</a><li><a href="/StudentCustomFields/StudentCustomFields/Fields" id="StudentCustomFields-Fields">طالب</a><li><a href="/StaffCustomFields/StaffCustomFields/Fields" id="StaffCustomFields-Fields">الموظفون</a><li><a href="/Infrastructures/Infrastructures/Fields" id="Infrastructures-Fields">البنية التحتية</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-8" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-8"><span>اعدادات اللغة</span></a><ul id="nav-menu-8" class="nav nav-level-4 collapse" role="tabpanel" data-level="4"><li><a href="/Locales" id="-Locales-Locales">اللغات</a><li><a href="/LocaleContents" id="-LocaleContents-LocaleContents">ترجمات</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-9" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-9"><span>APIs</span></a><ul id="nav-menu-9" class="nav nav-level-4 collapse" role="tabpanel" data-level="4"><li><a href="/Credentials/index" id="-Credentials-Credentials-index">Credentials</a></ul></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-10" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-10"><span>الأمن</span></a><ul id="nav-menu-10" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Securities/Securities/Users" id="Securities-Users">المستخدمون</a><li><a href="/Securities/Securities/UserGroups" id="Securities-UserGroups">مجموعات</a><li><a href="/Securities/Securities/Roles" id="Securities-Roles">الأدوار</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-11" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-11"><span>الملفات الشخصية</span></a><ul id="nav-menu-11" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/ProfileTemplates/Institutions" id="ProfileTemplates-Institutions">المؤسسات</a><li><a href="/ProfileTemplates/Classes" id="ProfileTemplates-Classes">الشعب</a><li><a href="/ProfileTemplates/Staff" id="ProfileTemplates-Staff">الموظفون</a><li><a href="/ProfileTemplates/Students" id="ProfileTemplates-Students">الطلاب</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-12" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-12"><span>المسح</span></a><ul id="nav-menu-12" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Surveys/Surveys/Questions" id="Surveys-Questions">النماذج</a><li><a href="/Rubrics/Templates" id="Rubrics-Templates">سلالم التقدير</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-13" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-13"><span>معلومات الاتصال</span></a><ul id="nav-menu-13" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Alerts/Alerts/Alerts" id="Alerts-Alerts">Alerts</a><li><a href="/Alerts/Alerts/AlertRules" id="Alerts-AlertRules">Alert Rules</a><li><a href="/Alerts/Alerts/Logs" id="Alerts-Logs">سجلات</a><li><a href="/Alerts/Alerts/Notices" id="Alerts-Notices">الملاحظات</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-14" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-14"><span>التدريب</span></a><ul id="nav-menu-14" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Trainings/Courses" id="Trainings-Courses">البرامج التدريبية</a><li><a href="/Trainings/Sessions" id="Trainings-Sessions">جلسات</a><li><a href="/Trainings/Results" id="Trainings-Results">النتائج</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-15" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-15"><span>مؤشرات الأداء (التقويم)</span></a><ul id="nav-menu-15" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Competencies/Competencies/Templates" id="Competencies-Templates">الكفايات</a><li><a href="/Outcomes/Templates" id="Outcomes-Templates">المخرجات</a><li><a href="/Assessments/Assessments/Assessments" id="Assessments-Assessments">التقـيـيـمـات</a><li><a href="/ReportCards/ReportCards/Templates" id="ReportCards-Templates">تقرير بطاقة الطالب</a><li><a href="/Gpa/Gpa/GpaSystem" id="Gpa-GpaSystem">GPA</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-16" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-16"><span>الامتحانات</span></a><ul id="nav-menu-16" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Examinations/Examinations/Exams" id="Examinations-Exams">الامتحانات</a><li><a href="/Examinations/Examinations/ExamCentres" id="Examinations-ExamCentres">مراكز الامتحانت</a><li><a href="/Examinations/Examinations/RegisteredStudents" id="Examinations-RegisteredStudents">الطلاب</a><li><a href="/Examinations/Examinations/ExamResults" id="Examinations-ExamResults">النتائج</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-17" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-17"><span>الموظفون</span></a><ul id="nav-menu-17" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Systems/StaffPolicies" id="Systems-StaffPolicies">Leaves</a><li><a href="/Systems/StaffEntitlements" id="Systems-StaffEntitlements">Entitlements</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-18" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-18"><span>Scholarships</span></a><ul id="nav-menu-18" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Scholarship/Scholarships" id="Scholarships-Scholarships">التفاصيل</a><li><a href="/Scholarship/Scholarships/Applications" id="Scholarships-Applications">طلبات الالتحاق بالتدريب</a><li><a href="/Scholarships/ScholarshipRecipients" id="-Scholarships-ScholarshipRecipients">Recipients</a></ul><li><a href="/Appraisals/Criterias/index" id="StaffAppraisals-Criterias-index">التقييم المرحلي </a><li><a href="/Textbooks/Textbooks/Textbooks" id="Textbooks-Textbooks">الكتب المدرسية</a><li><a href="/Meals/Meals/programme" id="Meals-programme">الوجبات</a><li><a href="/Workflows/Workflows" id="Workflows-Workflows">مخطط سير العمليات</a><li><a href="/Systems/Updates" id="Systems-Updates">التحديثات</a><li><a href="/Calendars" id="-Calendars-Calendars">Calendars</a><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-19" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-19"><span>MoodleApi</span></a><ul id="nav-menu-19" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/MoodleApi" id="-MoodleApi-index">Log</a></ul><li><a class="accordion-toggle panel-heading collapsed" href="#nav-menu-20" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="nav-menu-20"><span>Data Management</span></a><ul id="nav-menu-20" class="nav nav-level-3 collapse" role="tabpanel" data-level="3"><li><a href="/Archive/Archives/CopyData" id="Archives-CopyData">Copy</a><li><a href="/Archive/Archives/BackupLog" id="Archives-BackupLog">Backup</a><li><a href="/Archive/Archives/Transfer" id="Archives-Transfer">Archive</a></ul></ul></ul>	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#accordion').on('show.bs.collapse', function (e) {
+		var target = e.target;
+		var level = $(target).attr('data-level');
+		var id = $(target).attr('id');
+		$('[data-level=' + level + ']').each(function() {
+			if ($(this).attr('id') != id && $(this).hasClass('in') == true) {
+				$(this).collapse('hide');
+			}
+		});
+	})
+
+	var action = '';
+	$('#' + action).addClass('nav-active');
+	var ul = $('#' + action).parents('ul');
+
+	ul.each(function() {
+		$(this).addClass('in');
+		$(this).siblings('a.accordion-toggle').removeClass('collapsed'); 
+	});
+});
+</script>
+			</div>
+		</bg-pane>
+
+		<bg-pane id="rightPane" class="right-pane pane-container">
+			
+<div class="content-wrapper" ng-controller="AdvancedSearchCtrl">
+
+	<ul class="breadcrumb panel-breadcrumb">
+	<li><a href="/Dashboard"><i class="fa fa-home"></i></a></li>
+	
+		<li>
+		<a href="/Directory/Directories">الفهرس</a>	</li>
+	</ul>
+<!--for POCOR-8127 starts-->
+<script>
+// Assume you're outputting the session values into a JavaScript object
+var sessionData = {
+    username: "",
+    password: ""
+};
+// Now you can use sessionData to set session storage values in JavaScript
+// sessionStorage.setItem('username', sessionData.username);
+// sessionStorage.setItem('password', sessionData.password);
+</script>
+<!--for POCOR-8127 ends-->
+	<div class="page-header">
+		<h2 id="main-header">الفهرس</h2>
+					<div class="toolbar ">
+				<a href="/Directory/Directories/Directories/add" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="bottom" title="إضافة"><i class='fa kd-add'></i></a><a href="https://support.openemis.org/core/en/home-en/" class="btn btn-xs btn-default icon-big" data-toggle="tooltip" data-placement="bottom" target="_blank" title="مساعدة"><i class="fa fa-question-circle"></i></a><a href="#" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="bottom" title="البحث المتقدم" id="search-toggle" ng-click="toggleAdvancedSearch()"><i class="fa fa-search-plus"></i></a><a href="/Directory/Directories/ImportUsers/add" class="btn btn-xs btn-default" data-toggle="tooltip" data-placement="bottom" title="استيراد"><i class="fa kd-import"></i></a>			</div>
+			</div>
+
+	<div class="wrapper">
+		<div class="wrapper-child">
+			
+<div class="panel">
+	<div class="panel-body">
+				<!-- POCOR-7742 start -->
+                <!-- POCOR-7742 start -->
+		<!--?= $this->element('data_overview') ?-->
+				
+		<form enctype="multipart/form-data" method="post" accept-charset="utf-8" id="content-main-form" class="" novalidate="novalidate" onSubmit="$(&#039;button[type=&quot;submit&quot;]&#039;).click(function() { return false; });" action="/Directories/Directories"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>
+<div class="adv-search" ng-show="showAdvSearch" ng-init="showAdvSearch=1">
+    <button class="btn btn-xs close" type="button" alt="Collapse" ng-click="removeAdvSearch()">×</button>
+    <div class="adv-search-label">
+        <i class="fa fa-search-plus"></i>
+        <label>البحث المتقدم</label>
+    </div>
+
+                                    <div class="select">
+                        <label>نوع المستخدم:</label>
+                        <div class="input-select-wrapper">
+                            <select name="AdvanceSearch[Directories][belongsTo][user_type]">
+                                <option value="">-- اختر --</option>
+                                                                                                        <option value="2" >الموظفون</option>
+                                                                                                        <option value="1" >الطلاب</option>
+                                                                                                        <option value="3" >أولياء الأمور</option>
+                                                                                                        <option value="4" >غير ذلك</option>
+                                                            </select>
+                        </div>
+                    </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">الاسم الأول:</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][hasMany][first_name]" class="form-control focus" id="advancesearch-directories-first-name" value=""/>
+                    </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">الاسم الأوسط:</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][hasMany][middle_name]" class="form-control focus" id="advancesearch-directories-middle-name" value=""/>
+                    </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">اسم الجد:</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][hasMany][third_name]" class="form-control focus" id="advancesearch-directories-third-name" value=""/>
+                    </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">اسم العائلة :</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][hasMany][last_name]" class="form-control focus" id="advancesearch-directories-last-name" value=""/>
+                    </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">رقم تعريف ال OpenEMIS:</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][tableField][openemis_no]" class="form-control focus" id="advancesearch-directories-openemis-no" value=""/>
+                    </div>
+                                    <div class="select">
+                        <label>الجنس:</label>
+                        <div class="input-select-wrapper">
+                            <select name="AdvanceSearch[Directories][belongsTo][gender_id]">
+                                <option value="">-- اختر --</option>
+                                                                                                        <option value="1" >ذكر</option>
+                                                                                                        <option value="2" >أنثى</option>
+                                                            </select>
+                        </div>
+                    </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">رقم الاتصال:</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][hasMany][contact_number]" class="form-control focus" id="advancesearch-directories-contact-number" value=""/>
+                    </div>
+                                                        <div class="select">
+                        <label>مكان الولادة</label>
+                                                <div
+                            class="tree-form"
+                            id="birthplace_area_id"
+                            ng-controller="SgTreeCtrl as SgTree"
+                            ng-init="SgTree.model='Area.AreaAdministratives'; SgTree.outputValue=null; SgTree.userId=1; SgTree.displayCountry=1;">
+
+                            <kd-tree-dropdown-ng id="birthplace_area_id-tree" expand-parent="SgTree.triggerLoad(refreshList)" output-model="outputModelText" model-type="single" text-config="textConfig"></kd-tree-dropdown-ng>
+                            <input type="hidden" name="AdvanceSearch[Directories][belongsTo][birthplace_area_id]" ng-value="SgTree.outputValue"/>                        </div>
+                    </div>
+                                                            <div class="select">
+                        <label>العنوان - مكان السكن</label>
+                                                <div
+                            class="tree-form"
+                            id="address_area_id"
+                            ng-controller="SgTreeCtrl as SgTree"
+                            ng-init="SgTree.model='Area.AreaAdministratives'; SgTree.outputValue=null; SgTree.userId=1; SgTree.displayCountry=1;">
+
+                            <kd-tree-dropdown-ng id="address_area_id-tree" expand-parent="SgTree.triggerLoad(refreshList)" output-model="outputModelText" model-type="single" text-config="textConfig"></kd-tree-dropdown-ng>
+                            <input type="hidden" name="AdvanceSearch[Directories][belongsTo][address_area_id]" ng-value="SgTree.outputValue"/>                        </div>
+                    </div>
+                                <div class="select">
+                            <label>نوع التعريف:</label>
+                            <div class="input-select-wrapper">
+                                <select name="AdvanceSearch[Directories][hasMany][identity_type]">
+                                    <option value="">-- اختر --</option>
+                                                                                                                <option value="161" >School</option>
+                                                                                                             <option value="163" >Passport</option>
+                                                                                                             <option value="160" >Birth Certificate</option>
+                                                                                                             <option value="162" >Driver's License</option>
+                                                                                                             <option value="164" >Social Security </option>
+                                                                                                             <option value="452" >آخر / أخرى</option>
+                                                                                                             <option value="453" >UNHCR</option>
+                                                                 </select>
+                            </div>
+                        </div>
+                        <div class="text" style="margin-bottom:10px;">
+                        <label for="advancesearch-directories-identity-number">رقم التعريف:</label>
+
+                        <input type="text" name="AdvanceSearch[Directories][hasMany][identity_number]" class="form-control focus" id="advancesearch-directories-identity-number" value=""/>
+                    </div>
+    
+    <div class="search-action-btn">
+        <input type="hidden" name="AdvanceSearch[Directories][isSearch]" value="" id="isSearch" />
+        <button class="btn btn-default btn-xs" href="" ng-click="submitSearch()">بحث</button>
+        <!-- <button id="reset" class="btn btn-outline btn-xs" name="reset" ng-click="resetFields()" value="Reset">إعادة تعيين</button> -->
+        <button type="button" id="reset" class="btn btn-outline btn-xs" name="reset" ng-click="resetFields()" value="Reset">إعادة تعيين</button>
+            </div>
+
+</div>
+
+
+<div class="table-wrapper" ng-class="disableElement">
+	<div class="table-responsive">
+		<table class="table table-curved table-sortable table-checkable" >
+			<thead><tr><th>الصورة</th> <th><a href="/Directory/Directories?sort=openemis_no&amp;direction=asc">رقم تعريف ال OpenEMIS</a></th> <th><a href="/Directory/Directories?sort=first_name&amp;direction=asc">الاسم</a></th> <th>المؤسسة</th> <th><a href="/Directory/Directories?sort=date_of_birth&amp;direction=asc">تاريخ الميلاد</a></th> <th>Birth Certificate</th> <th class="cell-action">الإجراءات</th></tr></thead>
+			<tbody data-link="row"><tr></tr></tbody>
+		</table>
+	</div>
+</div>
+
+
+<div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="909fd22c7c735b50007e3abfddf19ee3eed6bb16%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="AdvanceSearch%7CAdvanceSearch.Directories.belongsTo.address_area_id%7CAdvanceSearch.Directories.belongsTo.birthplace_area_id%7Caddress_area_id-tree%7Cbirthplace_area_id-tree%7Creset"/></div></form>	</div>
+</div>
+
+		</div>
+	</div>
+</div>
+			<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form method="post" accept-charset="utf-8" action="/Directory/Directories/Directories/remove"><div style="display:none;"><input type="hidden" name="_method" value="DELETE"/></div><input type="hidden" name="primaryKey" id="recordId"/>				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">الفهرس</h4>
+				</div>
+
+				<div class="modal-body">
+										سيتم إزالة كافة المعلومات المرتبطة بها إلى هذا السجل.<br><br>هل أنت متأكد أنك تريد حذف هذا السجل؟				</div>
+
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-default">حذف</button>										<button type="button" class="btn btn-outline" data-dismiss="modal">إلغاء</button>
+									</div>
+
+								<div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="e155b2876f6f907e54d0234b8733dce2c38d307a%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="primaryKey"/></div></form>							</div>
+		</div>
+	</div>
+
+			</bg-pane>
+	</bg-splitter>
+
+	<footer>
+            Copyright &copy; 2020 OpenEMIS. All rights reserved.        | النسخة 5.4.1
+</footer>
+		<script src="/open_emis/js/angular/kd-angular-splitter.js"></script><script src="/open_emis/js/angular/ngx-adaptor/inline.bundle.js"></script><script src="/open_emis/js/angular/ngx-adaptor/polyfills.bundle.js"></script><script src="/open_emis/js/angular/ngx-adaptor/vendor.bundle.js"></script><script src="/open_emis/js/angular/ngx-adaptor/main.bundle.js"></script><link rel="stylesheet" href="/open_emis/css/../js/angular/ngx-adaptor/styles.bundle.css"/>
+<script type="text/javascript">
+$(document).ready(function() {
+	Chosen.init();
+	Checkable.init();
+	MobileMenu.init();
+	TableResponsive.init();
+	Tooltip.init();
+	ScrollTabs.init();
+	Header.init();
+	// ImageUploader.init();
+	// Gallery.init();
+});
+
+</script>
+
+<style type="text/css">
+.error .chosen-choices {
+    border-color: #CC5C5C !important;
+}
+
+/* POCOR-4359: temp added overwrites css styling for autocomplete as styles.bundle.css has .ui-autocomplete class that will cause the current autocomplete in core to not show - Added by KK*/
+body .ui-autocomplete {
+	position: absolute;
+}
+</style>
+
+</body>
+</html>
+

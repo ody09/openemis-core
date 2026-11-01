@@ -1,0 +1,1877 @@
+[Thu Oct 22 13:27:17 2026] PHP 8.3.36 Development Server (http://127.0.0.1:8001) started
+[Thu Oct 22 13:28:05 2026] 127.0.0.1:55452 Accepted
+[Thu Oct 22 13:28:06 2026] 127.0.0.1:55452 Closing
+[Thu Oct 22 13:28:40 2026] 127.0.0.1:55457 Accepted
+[Thu Oct 22 13:28:40 2026] 127.0.0.1:55457 Closing
+[Thu Oct 22 13:28:56 2026] 127.0.0.1:55459 Accepted
+[Thu Oct 22 13:28:56 2026] 127.0.0.1:55459 Closing
+[Thu Oct 22 13:28:56 2026] 127.0.0.1:55461 Accepted
+[Thu Oct 22 13:28:56 2026] 127.0.0.1:55461 Closing
+[Thu Oct 22 13:28:56 2026] 127.0.0.1:55463 Accepted
+[Thu Oct 22 13:28:57 2026] 127.0.0.1:55463 Closing
+[Thu Oct 22 13:28:57 2026] 127.0.0.1:55465 Accepted
+[Thu Oct 22 13:28:57 2026] 127.0.0.1:55465 Closing
+[Thu Oct 22 13:29:17 2026] 127.0.0.1:55469 Accepted
+[Thu Oct 22 13:29:17 2026] 127.0.0.1:55469 Closing
+[Thu Oct 22 13:29:17 2026] 127.0.0.1:55471 Accepted
+PHP Deprecated:  Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+PHP Fatal error:  You must enable the intl extension to use CakePHP. in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+Stack trace:
+#0 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php(31): trigger_error('You must enable...', 256)
+#1 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\bin\cake.php(4): require('C:\\Users\\MATTHE...')
+#2 {main}
+[Thu Oct 22 13:29:19 2026] 127.0.0.1:55471 Closing
+[Thu Oct 22 13:29:19 2026] 127.0.0.1:55473 Accepted
+[Thu Oct 22 13:29:20 2026] 127.0.0.1:55473 Closing
+[Thu Oct 22 13:29:20 2026] 127.0.0.1:55475 Accepted
+[Thu Oct 22 13:29:20 2026] 127.0.0.1:55475 Closing
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55478 Accepted
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55478 Closing
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55480 Accepted
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55480 [200]: GET /favicon.ico
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55480 Closing
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55481 Accepted
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55481 Closing
+[Thu Oct 22 13:29:36 2026] 127.0.0.1:55482 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55482 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55483 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55483 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55484 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55484 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55485 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55485 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55486 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55486 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55487 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55487 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55488 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55488 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55489 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55489 [200]: GET /css/themes/layout.min.css
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55489 Closing
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55490 Accepted
+[Thu Oct 22 13:29:37 2026] 127.0.0.1:55490 Closing
+[Thu Oct 22 13:29:56 2026] 127.0.0.1:55493 Accepted
+[Thu Oct 22 13:29:56 2026] 127.0.0.1:55493 Closing
+[Thu Oct 22 13:29:56 2026] 127.0.0.1:55495 Accepted
+PHP Deprecated:  Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+PHP Fatal error:  You must enable the intl extension to use CakePHP. in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+Stack trace:
+#0 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php(31): trigger_error('You must enable...', 256)
+#1 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\bin\cake.php(4): require('C:\\Users\\MATTHE...')
+#2 {main}
+[Thu Oct 22 13:29:57 2026] 127.0.0.1:55495 Closing
+[Thu Oct 22 13:29:57 2026] 127.0.0.1:55497 Accepted
+[Thu Oct 22 13:29:57 2026] 127.0.0.1:55497 Closing
+[Thu Oct 22 13:29:57 2026] 127.0.0.1:55499 Accepted
+[Thu Oct 22 13:29:57 2026] 127.0.0.1:55499 Closing
+[Thu Oct 22 13:29:57 2026] 127.0.0.1:55501 Accepted
+[Thu Oct 22 13:29:58 2026] 127.0.0.1:55501 Closing
+[Thu Oct 22 13:29:58 2026] 127.0.0.1:55503 Accepted
+[Thu Oct 22 13:29:59 2026] 127.0.0.1:55503 Closing
+[Thu Oct 22 13:30:53 2026] 127.0.0.1:56365 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:56365 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53500 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53272 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:60129 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53632 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53768 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:61870 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53500 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53272 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:60129 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:60623 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53632 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:53768 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:61870 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:59230 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:60623 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:49967 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:59230 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:49967 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:60623 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:64243 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:55344 Accepted
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:64243 Closing
+[Thu Oct 22 13:30:54 2026] 127.0.0.1:55344 Closing
+[Thu Oct 22 13:30:56 2026] 127.0.0.1:60878 Accepted
+[Thu Oct 22 13:30:56 2026] 127.0.0.1:60878 [200]: GET /favicon.ico
+[Thu Oct 22 13:30:56 2026] 127.0.0.1:60878 Closing
+[Thu Oct 22 13:31:45 2026] 127.0.0.1:60357 Accepted
+[Thu Oct 22 13:31:45 2026] 127.0.0.1:60357 Closing
+[Thu Oct 22 13:31:45 2026] 127.0.0.1:60359 Accepted
+PHP Deprecated:  Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+PHP Fatal error:  You must enable the intl extension to use CakePHP. in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+Stack trace:
+#0 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php(31): trigger_error('You must enable...', 256)
+#1 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\bin\cake.php(4): require('C:\\Users\\MATTHE...')
+#2 {main}
+[Thu Oct 22 13:31:46 2026] 127.0.0.1:60359 Closing
+[Thu Oct 22 13:31:46 2026] 127.0.0.1:60361 Accepted
+[Thu Oct 22 13:31:46 2026] 127.0.0.1:60361 Closing
+[Thu Oct 22 13:31:46 2026] 127.0.0.1:60363 Accepted
+[Thu Oct 22 13:31:46 2026] 127.0.0.1:60363 Closing
+[Thu Oct 22 13:31:47 2026] 127.0.0.1:60365 Accepted
+[Thu Oct 22 13:31:47 2026] 127.0.0.1:60365 Closing
+[Thu Oct 22 13:32:09 2026] 127.0.0.1:51610 Accepted
+[Thu Oct 22 13:32:09 2026] 127.0.0.1:51610 Closing
+[Thu Oct 22 13:32:09 2026] 127.0.0.1:51612 Accepted
+PHP Deprecated:  Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+PHP Fatal error:  You must enable the intl extension to use CakePHP. in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+Stack trace:
+#0 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php(31): trigger_error('You must enable...', 256)
+#1 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\bin\cake.php(4): require('C:\\Users\\MATTHE...')
+#2 {main}
+[Thu Oct 22 13:32:10 2026] 127.0.0.1:51612 Closing
+[Thu Oct 22 13:32:10 2026] 127.0.0.1:51614 Accepted
+[Thu Oct 22 13:32:10 2026] 127.0.0.1:51614 Closing
+[Thu Oct 22 13:32:10 2026] 127.0.0.1:51616 Accepted
+[Thu Oct 22 13:32:10 2026] 127.0.0.1:51616 Closing
+[Thu Oct 22 13:32:10 2026] 127.0.0.1:51618 Accepted
+[Thu Oct 22 13:32:12 2026] 127.0.0.1:51618 Closing
+[Thu Oct 22 13:32:12 2026] 127.0.0.1:51623 Accepted
+[Thu Oct 22 13:32:12 2026] 127.0.0.1:51623 Closing
+[Thu Oct 22 13:32:12 2026] 127.0.0.1:51629 Accepted
+[Thu Oct 22 13:32:12 2026] 127.0.0.1:51629 Closing
+[Thu Oct 22 13:33:11 2026] 127.0.0.1:64698 Accepted
+PHP Deprecated:  Passing E_USER_ERROR to trigger_error() is deprecated since 8.4, throw an exception or call exit with a string message instead in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+PHP Fatal error:  You must enable the intl extension to use CakePHP. in C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php on line 31
+Stack trace:
+#0 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\requirements.php(31): trigger_error('You must enable...', 256)
+#1 C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\bin\cake.php(4): require('C:\\Users\\MATTHE...')
+#2 {main}
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:64698 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:62683 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:62683 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:49795 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:49795 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:52870 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:58622 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:52870 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:64892 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:58622 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:55041 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:64892 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:56411 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:55041 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:55160 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:56411 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:49944 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:55160 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:65382 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:49944 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:63245 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:65382 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:62177 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:63245 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:65167 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:62177 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:49944 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:54313 Accepted
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:65167 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:65382 Closing
+[Thu Oct 22 13:33:12 2026] 127.0.0.1:49887 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:54313 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:52172 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:49887 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:57597 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:52172 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:56948 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:57597 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:60530 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:56948 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:59154 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:60530 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:55939 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:59154 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:63697 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:55939 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:55105 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:63697 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:51436 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:55105 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:63209 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:51436 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:64151 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:63209 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:57914 Accepted
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:64151 Closing
+[Thu Oct 22 13:33:13 2026] 127.0.0.1:53270 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:57914 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:50109 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:53270 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:51196 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:50109 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:56912 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:51196 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:53482 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:56912 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:60293 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:53482 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:54908 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:60293 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:55548 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:54908 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:62775 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:55548 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:58863 Accepted
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:62775 Closing
+[Thu Oct 22 13:33:14 2026] 127.0.0.1:58668 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:58863 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64691 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:58668 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:52493 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64691 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64181 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:52493 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:62803 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64181 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:61677 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:62803 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:60343 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:61677 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64442 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:60343 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64181 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64700 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64442 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:62803 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:52620 Accepted
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:64700 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:61677 Closing
+[Thu Oct 22 13:33:15 2026] 127.0.0.1:53962 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:52620 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:60343 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:57352 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:53962 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64442 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56799 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:57352 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64700 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:63147 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56799 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56331 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:63147 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:54675 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56331 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:57352 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56450 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:54675 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56799 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:51629 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56450 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:63147 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:63235 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:51629 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:50135 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:63235 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61733 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:50135 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56450 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:50457 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61733 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:51629 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56833 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:50457 [200]: GET /js/app.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:63235 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56310 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56833 [200]: GET /js/app.table.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:50135 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:51825 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56310 [200]: GET /js/config.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:52289 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:51825 [200]: GET /js/app/components/alert/alert.svc.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:50457 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61235 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:52289 [200]: GET /js/angular/dashboard/dashboard.ctrl.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56833 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61275 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61235 [200]: GET /js/angular/dashboard/dashboard.svc.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:56310 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61714 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61275 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:51825 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64697 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61714 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:52289 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61156 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64697 [200]: GET /js/dashboards.js
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61235 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:53898 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:61156 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:59800 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:53898 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64939 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:59800 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64697 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:60512 Accepted
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:64939 Closing
+[Thu Oct 22 13:33:16 2026] 127.0.0.1:58257 Accepted
+[Thu Oct 22 13:33:17 2026] 127.0.0.1:60512 Closing
+[Thu Oct 22 13:33:17 2026] 127.0.0.1:58257 Closing
+[Thu Oct 22 13:33:17 2026] 127.0.0.1:56135 Accepted
+[Thu Oct 22 13:33:17 2026] 127.0.0.1:50306 Accepted
+[Thu Oct 22 13:33:17 2026] 127.0.0.1:56135 Closing
+[Thu Oct 22 13:33:17 2026] 127.0.0.1:65224 Accepted
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:50306 Closing
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:58764 Accepted
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:65224 Closing
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:58944 Accepted
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:58764 Closing
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:51322 Accepted
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:58944 Closing
+[Thu Oct 22 13:33:18 2026] 127.0.0.1:54190 Accepted
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:51322 Closing
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:55334 Accepted
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:54190 Closing
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:53693 Accepted
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:55334 Closing
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:52495 Accepted
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:53693 Closing
+[Thu Oct 22 13:33:19 2026] 127.0.0.1:52377 Accepted
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:52495 Closing
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:61835 Accepted
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:52377 Closing
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:64488 Accepted
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:61835 Closing
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:61695 Accepted
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:64488 Closing
+[Thu Oct 22 13:33:20 2026] 127.0.0.1:53813 Accepted
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:61695 Closing
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:63251 Accepted
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:53813 Closing
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:56941 Accepted
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:63251 Closing
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:60880 Accepted
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:56941 Closing
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:57865 Accepted
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:60880 Closing
+[Thu Oct 22 13:33:21 2026] 127.0.0.1:62759 Accepted
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:57865 Closing
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:52038 Accepted
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:62759 Closing
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:61295 Accepted
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:52038 Closing
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:55719 Accepted
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:61295 Closing
+[Thu Oct 22 13:33:22 2026] 127.0.0.1:54101 Accepted
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:55719 Closing
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:54241 Accepted
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:54101 Closing
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:62001 Accepted
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:54241 Closing
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:56550 Accepted
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:62001 Closing
+[Thu Oct 22 13:33:23 2026] 127.0.0.1:56550 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:58266 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:58266 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:64259 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:64259 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:57922 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62365 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:57922 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:52723 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62365 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:64259 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:57281 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:52723 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:61007 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:57281 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:57922 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:58732 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:61007 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62365 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:60508 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:58732 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:52723 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55469 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:60508 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:57281 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:63707 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55469 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:61007 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55765 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:63707 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:58732 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:51734 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55765 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:60508 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:59943 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:51734 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55469 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55766 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:59943 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:63707 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62799 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55766 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55765 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:51632 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62799 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:51734 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62250 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:51632 [200]: GET /js/app.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:59943 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:59880 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62250 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:55766 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:50246 Accepted
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:59880 [200]: GET /js/app.table.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:62799 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:50246 [200]: GET /js/config.js
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:51632 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:59880 Closing
+[Thu Oct 22 13:33:26 2026] 127.0.0.1:50246 Closing
+[Thu Oct 22 13:33:32 2026] 127.0.0.1:50572 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:50572 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60556 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:55550 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56892 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60279 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60556 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60983 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:55550 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56892 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60279 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53166 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60983 [200]: GET /js/highchart/highcharts.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:58919 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53166 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56259 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:58919 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56892 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60279 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:55048 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56259 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65299 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:55048 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60983 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:64798 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65299 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:61633 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:64798 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56259 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:51953 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:61633 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:55048 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:59162 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:51953 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65299 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65081 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:59162 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:64798 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56401 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65081 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:61633 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60068 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56401 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:51953 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:63555 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60068 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:59162 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53133 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:63555 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65081 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53321 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53133 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:56401 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:54824 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53321 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:60068 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:58488 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:54824 [200]: GET /js/app.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:63555 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:59037 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:58488 [200]: GET /js/app.table.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53133 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65235 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:59037 [200]: GET /js/config.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:53321 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65235 [200]: GET /js/dashboards.js
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:54824 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:58488 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:59037 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:65235 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:57905 Accepted
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:57905 Closing
+[Thu Oct 22 13:33:33 2026] 127.0.0.1:57808 Accepted
+[Thu Oct 22 13:33:34 2026] 127.0.0.1:57808 Closing
+[Thu Oct 22 13:33:34 2026] 127.0.0.1:55533 Accepted
+[Thu Oct 22 13:33:34 2026] 127.0.0.1:55533 Closing
+[Thu Oct 22 13:33:34 2026] 127.0.0.1:56347 Accepted
+[Thu Oct 22 13:33:34 2026] 127.0.0.1:56347 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:58951 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:58951 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:49668 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:60440 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:50151 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:50813 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:49668 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:60440 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:50151 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:51882 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:50813 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:59009 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:51882 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:59009 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:49668 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:60440 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:50151 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:52267 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:50813 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:53597 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:52267 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:51882 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:56569 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:53597 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:59009 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:61965 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:56569 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:61073 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:61965 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:52267 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:63344 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:61073 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:53597 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:58397 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:63344 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:56569 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:59267 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:58397 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:61965 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:65184 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:59267 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:61073 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:62868 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:65184 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:63344 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:65105 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:62868 [200]: GET /js/app.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:58397 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:60311 Accepted
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:65105 [200]: GET /js/app.table.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:59267 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:60311 [200]: GET /js/config.js
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:65184 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:62868 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:65105 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:60311 Closing
+[Thu Oct 22 13:33:35 2026] 127.0.0.1:58742 Accepted
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:58742 Closing
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:61778 Accepted
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:54149 Accepted
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:61778 Closing
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:54149 Closing
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:51829 Accepted
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:51829 Closing
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:58815 Accepted
+[Thu Oct 22 13:33:36 2026] 127.0.0.1:58815 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:60993 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:60993 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59492 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59492 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:57112 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59274 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:57112 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58487 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59274 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59492 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:57053 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58487 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:65256 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:57053 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:57112 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:61689 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:65256 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59274 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:55116 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:61689 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58487 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:49728 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:55116 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:57053 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:55277 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:49728 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:65256 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:64284 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:55277 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:61689 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:56289 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:64284 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:55116 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58603 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:56289 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:49728 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:61394 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58603 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:55277 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:51314 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:61394 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:64284 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:54736 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:51314 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:56289 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:64125 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:54736 [200]: GET /js/app.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58603 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:51321 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:64125 [200]: GET /js/app.table.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:61394 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59815 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:51321 [200]: GET /js/config.js
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:51314 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59688 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59815 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:54736 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:59688 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:64125 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:51321 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58762 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:58762 Closing
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:54963 Accepted
+[Thu Oct 22 13:33:48 2026] 127.0.0.1:54574 Accepted
+[Thu Oct 22 13:33:49 2026] 127.0.0.1:54963 Closing
+[Thu Oct 22 13:33:49 2026] 127.0.0.1:54574 Closing
+[Thu Oct 22 13:33:49 2026] 127.0.0.1:56228 Accepted
+[Thu Oct 22 13:33:49 2026] 127.0.0.1:56228 Closing
+[Thu Oct 22 13:33:49 2026] 127.0.0.1:60378 Accepted
+[Thu Oct 22 13:33:49 2026] 127.0.0.1:60378 Closing
+[Thu Oct 22 13:34:50 2026] 127.0.0.1:64616 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:64616 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58432 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:53553 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:57130 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:62916 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58432 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:53553 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54002 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:57130 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:62916 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:49669 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54002 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:49669 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58432 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:53553 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50352 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:57130 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:62916 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:56167 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50352 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54002 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:57025 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:56167 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:49669 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58524 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:57025 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54423 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58524 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50352 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:61421 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54423 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:56167 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54074 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:61421 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:57025 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54194 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54074 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58524 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50673 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54194 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54423 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58831 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50673 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:61421 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58667 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58831 [200]: GET /js/app.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54074 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:51032 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58667 [200]: GET /js/app.table.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:54194 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:59038 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:51032 [200]: GET /js/config.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50673 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50983 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:59038 [200]: GET /js/highchart/highcharts.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58831 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50983 [200]: GET /js/dashboards.js
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:58667 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:51032 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:59038 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:50983 Closing
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:63016 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:63878 Accepted
+[Thu Oct 22 13:34:51 2026] 127.0.0.1:63016 Closing
+[Thu Oct 22 13:34:52 2026] 127.0.0.1:63878 Closing
+[Thu Oct 22 13:34:52 2026] 127.0.0.1:64005 Accepted
+[Thu Oct 22 13:34:52 2026] 127.0.0.1:64005 Closing
+[Thu Oct 22 13:34:52 2026] 127.0.0.1:64952 Accepted
+[Thu Oct 22 13:34:52 2026] 127.0.0.1:64952 Closing
+[Thu Oct 22 13:34:53 2026] 127.0.0.1:58292 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:58292 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:50191 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:64750 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:50191 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:54392 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:64750 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53191 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:54392 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:50471 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53191 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:50191 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:64596 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:50471 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:64750 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:60025 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:64596 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:54392 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:58506 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:60025 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53191 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:62234 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:58506 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:50471 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49406 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:62234 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:64596 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:57675 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49406 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:60025 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49999 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:57675 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:58506 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49671 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49999 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:62234 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53815 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49671 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49406 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:65396 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53815 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:57675 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:54388 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:65396 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49999 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53266 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:54388 [200]: GET /js/app.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:49671 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:57211 Accepted
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53266 [200]: GET /js/app.table.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53815 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:57211 [200]: GET /js/config.js
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:65396 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:54388 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:53266 Closing
+[Thu Oct 22 13:34:54 2026] 127.0.0.1:57211 Closing
+[Thu Oct 22 13:35:10 2026] 127.0.0.1:60819 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:60819 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:57282 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:57282 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:54080 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:54080 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:62293 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:65176 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:62293 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49905 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:65176 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:54080 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49672 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49905 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:65449 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49672 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:62293 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:53306 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:65449 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:65176 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61592 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:53306 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49905 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:64182 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61592 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49672 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61756 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:64182 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:65449 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:58302 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61756 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:53306 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:51963 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:58302 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61592 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:52087 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:51963 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:64182 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:55852 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:52087 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61756 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61939 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:55852 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:58302 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49790 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61939 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:51963 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49979 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49790 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:52087 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:52808 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49979 [200]: GET /js/app.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:55852 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:54640 Accepted
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:52808 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:61939 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:54640 [200]: GET /js/config.js
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:49979 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:52808 Closing
+[Thu Oct 22 13:35:11 2026] 127.0.0.1:54640 Closing
+[Thu Oct 22 13:35:16 2026] 127.0.0.1:58324 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:58324 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59244 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:65103 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:65258 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59244 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52218 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:65103 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:65258 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:51616 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52218 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:64420 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:51616 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59244 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:54083 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:64420 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:65103 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:65258 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:63708 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:54083 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52218 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:55567 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:63708 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:51616 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:61808 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:55567 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:64420 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:50202 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:61808 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:54083 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52454 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:50202 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:63708 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:49673 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52454 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:55567 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:54657 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:49673 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:61808 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59471 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:54657 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:50202 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59890 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59471 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52454 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52205 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59890 [200]: GET /js/app.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:49673 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:56018 Accepted
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52205 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:54657 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:56018 [200]: GET /js/config.js
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59471 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:59890 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:52205 Closing
+[Thu Oct 22 13:35:17 2026] 127.0.0.1:56018 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:63057 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:63057 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:59731 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:51065 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:59731 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:56535 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:51065 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:52627 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:56535 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:60038 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:52627 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:59731 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:54075 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:60038 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:51065 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:56621 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:54075 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:56535 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:58854 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:56621 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:52627 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:50440 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:58854 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:60038 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:61121 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:50440 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:54075 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:64348 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:61121 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:56621 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:60481 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:64348 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:58854 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:54739 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:60481 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:50440 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:58463 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:54739 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:61121 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:64889 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:58463 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:64348 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:57977 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:64889 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:60481 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:65204 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:57977 [200]: GET /js/app.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:54739 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:61821 Accepted
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:65204 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:58463 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:61821 [200]: GET /js/config.js
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:64889 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:57977 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:65204 Closing
+[Thu Oct 22 13:35:25 2026] 127.0.0.1:61821 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:49674 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:49674 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:60741 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:62833 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:55415 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:60741 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:60345 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:62833 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:55415 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:58834 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:60345 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:57257 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:58834 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:60741 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54918 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:57257 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:62833 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:55415 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51861 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54918 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:60345 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:56833 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51861 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:58834 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51445 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:56833 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:57257 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:61695 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51445 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54918 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:52035 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:61695 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51861 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51475 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:52035 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:56833 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54837 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51475 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51445 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:55409 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54837 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:61695 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54068 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:55409 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:52035 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:57291 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54068 [200]: GET /js/app.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:51475 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:53843 Accepted
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:57291 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54837 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:53843 [200]: GET /js/config.js
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:55409 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:54068 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:57291 Closing
+[Thu Oct 22 13:35:27 2026] 127.0.0.1:53843 Closing
+[Thu Oct 22 13:35:34 2026] 127.0.0.1:53917 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:53917 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:55533 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63383 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:57275 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:52626 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:55533 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63383 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:57275 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63481 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:52626 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63185 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63481 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63185 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:55533 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63383 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:57275 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63078 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:52626 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:49733 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63078 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63481 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:54564 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:49733 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63185 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:50167 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:54564 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:59926 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:50167 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:63078 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:64624 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:59926 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:49733 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:51859 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:64624 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:54564 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:59960 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:51859 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:50167 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:50060 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:59960 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:59926 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:51642 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:50060 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:64624 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:55661 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:51642 [200]: GET /js/app.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:51859 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:54882 Accepted
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:55661 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:59960 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:54882 [200]: GET /js/config.js
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:50060 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:51642 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:55661 Closing
+[Thu Oct 22 13:35:35 2026] 127.0.0.1:54882 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:57859 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:57859 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59441 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:62107 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59029 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61825 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49705 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59441 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:62107 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59029 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61825 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:62337 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49705 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:62337 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59441 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:62107 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59029 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61825 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61060 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49705 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:55315 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61060 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:62337 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49762 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:55315 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:63609 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49762 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49913 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:63609 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61060 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49157 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49913 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:55315 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:58038 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49157 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49762 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59682 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:58038 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:63609 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61432 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59682 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49913 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59588 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61432 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:49157 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:64542 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59588 [200]: GET /js/app.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:58038 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:65522 Accepted
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:64542 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59682 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:65522 [200]: GET /js/config.js
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:61432 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:59588 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:64542 Closing
+[Thu Oct 22 13:35:41 2026] 127.0.0.1:65522 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:61786 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:61786 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56401 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:50751 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56401 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:60997 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:50751 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:53990 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:60997 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:54364 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:53990 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56401 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:54980 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:54364 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:50751 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56609 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:54980 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:60997 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56259 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56609 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:53990 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:58351 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56259 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:54364 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59552 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:58351 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:54980 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59851 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59552 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56609 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:57963 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59851 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56259 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:58336 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:57963 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:58351 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59245 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:58336 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59552 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56304 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59245 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59851 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:57325 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56304 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:57963 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:55947 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:57325 [200]: GET /js/app.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:58336 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:55603 Accepted
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:55947 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:59245 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:55603 [200]: GET /js/config.js
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:56304 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:57325 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:55947 Closing
+[Thu Oct 22 13:35:45 2026] 127.0.0.1:55603 Closing
+[Thu Oct 22 13:35:48 2026] 127.0.0.1:65207 Accepted
+[Thu Oct 22 13:35:48 2026] 127.0.0.1:65207 Closing
+[Thu Oct 22 13:35:48 2026] 127.0.0.1:60228 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:60228 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:59951 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:59951 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:58241 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:62732 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:64365 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:58241 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:59951 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:55607 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:62732 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:64365 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:49668 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:55607 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:60192 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:49668 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:58241 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:56285 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:60192 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:62732 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:64365 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:53157 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:56285 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:55607 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:62279 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:53157 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:49668 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:59240 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:62279 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:60192 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:63831 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:59240 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:56285 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:55495 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:63831 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:53157 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:53789 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:55495 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:62279 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:57000 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:53789 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:59240 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:58607 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:57000 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:63831 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:50624 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:58607 [200]: GET /js/app.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:55495 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:50164 Accepted
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:50624 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:53789 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:50164 [200]: GET /js/config.js
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:57000 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:58607 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:50624 Closing
+[Thu Oct 22 13:35:49 2026] 127.0.0.1:50164 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64223 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64223 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:61078 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55952 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:61385 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55382 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64345 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:61078 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:52956 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55952 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:61385 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55382 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64345 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:52956 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:61078 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:59459 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55952 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:61385 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55382 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64345 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:54519 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:59459 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:52956 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:65205 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:54519 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55643 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:65205 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:58252 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55643 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:59459 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:65398 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:58252 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:54519 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:58033 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:65398 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:65205 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:59150 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:58033 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:55643 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64428 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:59150 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:58252 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:60321 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64428 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:65398 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:50126 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:60321 [200]: GET /js/app.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:58033 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64193 Accepted
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:50126 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:59150 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64193 [200]: GET /js/config.js
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64428 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:60321 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:50126 Closing
+[Thu Oct 22 13:35:50 2026] 127.0.0.1:64193 Closing
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:50136 Accepted
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:50136 Closing
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:51419 Accepted
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:51419 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:58683 Accepted
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:57819 Accepted
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:58683 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:55558 Accepted
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:57819 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:51419 Closing
+[Thu Oct 22 13:35:54 2026] 127.0.0.1:63832 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55558 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:51512 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:63832 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:58683 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56981 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:51512 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:57819 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55584 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56981 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55558 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55457 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55584 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:63832 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55036 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55457 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:51512 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56751 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55036 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56981 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56224 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56751 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55584 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:54460 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56224 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55457 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:65346 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:54460 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:55036 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:52020 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:65346 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56751 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:60540 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:52020 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:56224 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:49384 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:60540 [200]: GET /js/app.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:54460 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:51355 Accepted
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:49384 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:65346 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:51355 [200]: GET /js/config.js
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:52020 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:60540 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:49384 Closing
+[Thu Oct 22 13:35:55 2026] 127.0.0.1:51355 Closing
+[Thu Oct 22 13:35:58 2026] 127.0.0.1:54071 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:54071 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:52935 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:52935 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61498 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:51068 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61498 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61392 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:51068 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:52935 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:53454 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61392 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:56573 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:53454 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61498 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60598 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:56573 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:51068 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:57964 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60598 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61392 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:52696 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:57964 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:53454 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60163 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:52696 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:56573 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60938 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60163 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60598 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:57384 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60938 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:57964 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:64991 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:57384 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:52696 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:62701 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:64991 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60163 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61172 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:62701 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:60938 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:56961 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61172 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:57384 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:65241 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:56961 [200]: GET /js/app.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:64991 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:53677 Accepted
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:65241 [200]: GET /js/app.table.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:62701 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:53677 [200]: GET /js/config.js
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:61172 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:56961 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:65241 Closing
+[Thu Oct 22 13:35:59 2026] 127.0.0.1:53677 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:50477 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:50477 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:58007 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52112 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:53721 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49674 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:54174 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:54910 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:58007 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52112 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:53721 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49674 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:54174 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:54910 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:58007 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52112 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:53721 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49674 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:54174 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:54910 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49676 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:59955 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51912 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52904 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51437 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49676 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:59955 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51912 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:64733 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52904 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51437 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:64733 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49676 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:59955 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51912 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51840 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52904 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51437 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52028 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51840 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:64733 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49751 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52028 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:64861 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49751 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:57454 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:64861 [200]: GET /js/app.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51840 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:61207 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:57454 [200]: GET /js/app.table.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:52028 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:59028 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:61207 [200]: GET /js/config.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:49751 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:53674 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:59028 [200]: GET /js/app/components/alert/alert.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:64861 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51699 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:53674 [200]: GET /js/angular/dashboard/dashboard.ctrl.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:57454 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:63087 Accepted
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51699 [200]: GET /js/angular/dashboard/dashboard.svc.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:61207 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:63087 [200]: GET /js/dashboards.js
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:59028 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:53674 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:51699 Closing
+[Thu Oct 22 13:36:00 2026] 127.0.0.1:63087 Closing
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:52815 Accepted
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:64368 Accepted
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:55128 Accepted
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:62553 Accepted
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:50747 Accepted
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:52815 Closing
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:64368 Closing
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:55128 Closing
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:60289 Accepted
+[Thu Oct 22 13:36:01 2026] 127.0.0.1:62553 Closing
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:50747 Closing
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:65063 Accepted
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:60289 Closing
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:59833 Accepted
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:65063 Closing
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:53029 Accepted
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:59833 Closing
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:60107 Accepted
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:53029 Closing
+[Thu Oct 22 13:36:02 2026] 127.0.0.1:51572 Accepted
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:60107 Closing
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:60062 Accepted
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:51572 Closing
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:57857 Accepted
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:60062 Closing
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:52380 Accepted
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:57857 Closing
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:60871 Accepted
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:52380 Closing
+[Thu Oct 22 13:36:03 2026] 127.0.0.1:55953 Accepted
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:60871 Closing
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:54555 Accepted
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:55953 Closing
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:51639 Accepted
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:54555 Closing
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:59681 Accepted
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:51639 Closing
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:59042 Accepted
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:59681 Closing
+[Thu Oct 22 13:36:04 2026] 127.0.0.1:60421 Accepted
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:59042 Closing
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:50479 Accepted
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:60421 Closing
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:50625 Accepted
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:50479 Closing
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:59988 Accepted
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:50625 Closing
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:49348 Accepted
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:59988 Closing
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:61203 Accepted
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:49348 Closing
+[Thu Oct 22 13:36:05 2026] 127.0.0.1:60330 Accepted
+[Thu Oct 22 13:36:06 2026] 127.0.0.1:61203 Closing
+[Thu Oct 22 13:36:06 2026] 127.0.0.1:60330 Closing
+[Thu Oct 22 13:36:08 2026] 127.0.0.1:56759 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56759 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:54852 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:54852 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:51333 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56536 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63854 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56647 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56628 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:51333 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56536 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63854 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56647 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:61277 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56628 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:61277 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:51333 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56536 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63854 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56647 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:58614 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56628 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:51142 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:61277 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60144 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:58614 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:51142 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60283 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60144 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:65179 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60283 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:55309 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:65179 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:58614 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:51142 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:53188 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:55309 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60144 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:50392 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:53188 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60283 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:58839 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:50392 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:65179 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63235 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:58839 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:55309 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:57628 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63235 [200]: GET /js/app.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:53188 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60079 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:57628 [200]: GET /js/app.table.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:50392 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56466 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60079 [200]: GET /js/config.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:58839 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:61462 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56466 [200]: GET /js/app/components/alert/alert.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63235 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:55952 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:61462 [200]: GET /js/angular/dashboard/dashboard.ctrl.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:57628 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:52501 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:55952 [200]: GET /js/angular/dashboard/dashboard.svc.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60079 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:52501 [200]: GET /js/dashboards.js
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:56466 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:61462 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:55952 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:52501 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:64014 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:53866 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:64014 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:60571 Accepted
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:53866 Closing
+[Thu Oct 22 13:36:09 2026] 127.0.0.1:63561 Accepted
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:60571 Closing
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:51007 Accepted
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:63561 Closing
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:61978 Accepted
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:51007 Closing
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:57647 Accepted
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:61978 Closing
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:62773 Accepted
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:57647 Closing
+[Thu Oct 22 13:36:10 2026] 127.0.0.1:58039 Accepted
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:62773 Closing
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:64852 Accepted
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:58039 Closing
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:57724 Accepted
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:64852 Closing
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:61420 Accepted
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:57724 Closing
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:51340 Accepted
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:61420 Closing
+[Thu Oct 22 13:36:11 2026] 127.0.0.1:61613 Accepted
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:51340 Closing
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:51128 Accepted
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:61613 Closing
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:62580 Accepted
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:51128 Closing
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:59623 Accepted
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:62580 Closing
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:64372 Accepted
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:59623 Closing
+[Thu Oct 22 13:36:12 2026] 127.0.0.1:50722 Accepted
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:64372 Closing
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:53978 Accepted
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:50722 Closing
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:60840 Accepted
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:53978 Closing
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:62391 Accepted
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:60840 Closing
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:52483 Accepted
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:62391 Closing
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:63014 Accepted
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:52483 Closing
+[Thu Oct 22 13:36:13 2026] 127.0.0.1:50117 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:63014 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:56605 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:50117 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:56728 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:56605 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:53788 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:56728 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:55425 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:53788 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:62499 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:55425 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:63088 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:62499 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:57228 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:63088 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:54931 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:57228 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:63478 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:54931 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:62499 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:56194 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:63478 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:63088 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:61958 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:56194 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:57228 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:62470 Accepted
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:61958 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:54931 Closing
+[Thu Oct 22 13:36:14 2026] 127.0.0.1:57737 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:62470 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:63478 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:50700 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57737 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56194 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:61882 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:50700 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:61958 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:65484 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:61882 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:62470 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56915 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:65484 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57737 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56690 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56915 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:50700 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57389 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56690 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:61882 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56483 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57389 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:65484 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:59630 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56483 [200]: GET /js/app.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56915 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:58025 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:59630 [200]: GET /js/app.table.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56690 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:63994 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:58025 [200]: GET /js/config.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57389 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53029 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:63994 [200]: GET /js/app/components/alert/alert.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56483 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57418 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53029 [200]: GET /js/angular/dashboard/dashboard.ctrl.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:59630 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53816 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57418 [200]: GET /js/angular/dashboard/dashboard.svc.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:58025 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53816 [200]: GET /js/dashboards.js
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:63994 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53029 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:57418 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53816 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:62091 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:62091 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53619 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:63202 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:53619 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56072 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:63202 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:61499 Accepted
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:56072 Closing
+[Thu Oct 22 13:36:15 2026] 127.0.0.1:55955 Accepted
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:61499 Closing
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:55823 Accepted
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:55955 Closing
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:63082 Accepted
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:55823 Closing
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:51532 Accepted
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:63082 Closing
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:58404 Accepted
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:51532 Closing
+[Thu Oct 22 13:36:16 2026] 127.0.0.1:60517 Accepted
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:58404 Closing
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:64402 Accepted
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:60517 Closing
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:51951 Accepted
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:64402 Closing
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:59051 Accepted
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:51951 Closing
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:54998 Accepted
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:59051 Closing
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:58570 Accepted
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:54998 Closing
+[Thu Oct 22 13:36:17 2026] 127.0.0.1:65517 Accepted
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:58570 Closing
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:50668 Accepted
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:65517 Closing
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:64968 Accepted
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:50668 Closing
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:50821 Accepted
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:64968 Closing
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:64994 Accepted
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:50821 Closing
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:52735 Accepted
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:64994 Closing
+[Thu Oct 22 13:36:18 2026] 127.0.0.1:61998 Accepted
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:52735 Closing
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:54807 Accepted
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:61998 Closing
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:59497 Accepted
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:54807 Closing
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:55279 Accepted
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:59497 Closing
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:51108 Accepted
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:55279 Closing
+[Thu Oct 22 13:36:19 2026] 127.0.0.1:51108 Closing
+[Thu Oct 22 13:36:26 2026] 127.0.0.1:51320 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:51320 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:59517 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:55559 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:51656 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:63517 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:59634 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:59517 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:55559 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:52520 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:51656 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:63517 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:59634 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:51281 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:52520 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64933 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:51281 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:59517 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:55559 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:61096 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64933 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:59634 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:63508 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:61096 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:52520 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:50234 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:63508 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:51281 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:58844 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:50234 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64933 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64532 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:58844 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:61096 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:57676 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64532 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:63508 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64094 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:57676 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:50234 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:54492 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64094 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:58844 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:56032 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:54492 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64532 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:52697 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:56032 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:57676 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:50927 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:52697 [200]: GET /js/app.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:64094 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:65083 Accepted
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:50927 [200]: GET /js/app.table.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:54492 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:65083 [200]: GET /js/config.js
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:56032 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:52697 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:50927 Closing
+[Thu Oct 22 13:36:27 2026] 127.0.0.1:65083 Closing
+[Thu Oct 22 13:36:30 2026] 127.0.0.1:50390 Accepted
+[Thu Oct 22 13:36:30 2026] 127.0.0.1:50390 Closing
+[Thu Oct 22 13:36:30 2026] 127.0.0.1:61170 Accepted
+[Thu Oct 22 13:36:30 2026] 127.0.0.1:51564 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:61170 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:59829 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:51564 [200]: GET /css/themes/layout.min.css?timestamp=1749721150
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57354 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:59829 [200]: GET /css/highchart-override.css
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:65132 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57354 [200]: GET /js/doughnutchart/Chart.min.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:62432 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:65132 [200]: GET /js/doughnutchart/Chart.Doughnut.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:51564 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:50862 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:62432 [200]: GET /js/app/shared/ngSlider/slider.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:59829 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:61463 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:50862 [200]: GET /js/app/app.ctrl.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57354 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:51451 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:61463 [200]: GET /js/app/app.svc.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:65132 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:62642 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:51451 [200]: GET /js/app/services/app/utils.svc.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:62432 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57841 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:62642 [200]: GET /js/app/services/app/aggrid.locale.svc.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:50862 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53442 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57841 [200]: GET /js/app/services/app/kd.session.svc.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:61463 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53739 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53442 [200]: GET /js/app/services/app/kd.access.svc.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:51451 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:58604 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53739 [200]: GET /js/angularJs/kdModule/controllers/kd.ctrl.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:62642 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:55463 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:58604 [200]: GET /js/angularJs/kdModule/directives/kd.drt.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57841 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:49674 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:55463 [200]: GET /js/angularJs/kdModule/services/kd.common.svc.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53442 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:56674 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:49674 [200]: GET /js/angularJs/kdModule/kd.module.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53739 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:59508 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:56674 [200]: GET /js/app.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:58604 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57463 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:59508 [200]: GET /js/app.table.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:55463 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:55058 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57463 [200]: GET /js/config.js
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:49674 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:55058 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:56674 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:59508 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:57463 Closing
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53341 Accepted
+[Thu Oct 22 13:36:31 2026] 127.0.0.1:53341 Closing

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="">
+<head>
+	<meta charset="utf-8"/>	<title>OpenEMIS Core</title>
+	<script>
+		//POCOR-9633: Clear stale baseCoreUrl if origin has changed — prevents Angular from calling wrong API path
+		(function() {
+			var stored = localStorage.getItem('baseCoreUrl');
+			if (stored) {
+				try {
+					var storedOrigin = new URL(stored).origin;
+					if (storedOrigin !== window.location.origin) {
+						localStorage.removeItem('baseCoreUrl');
+					}
+				} catch(e) {
+					localStorage.removeItem('baseCoreUrl');
+				}
+			}
+		})();
+	</script>
+	<meta name="viewport" content="width=320, initial-scale=1"/><link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/><link rel="stylesheet" href="/open_emis/css/../plugins/bootstrap/css/bootstrap.min.css" media="screen"/><link rel="stylesheet" href="/open_emis/css/../plugins/font-awesome/css/font-awesome.min.css" media="screen"/><link rel="stylesheet" href="/open_emis/css/reset.css" media="screen"/><link rel="stylesheet" href="/open_emis/css/master.min.css"/><link rel="stylesheet" href="/open_emis/css/themes/core/layout.min.css"/><script src="/open_emis/js/lib/css_browser_selector.js"></script><script src="/open_emis/js/lib/jquery/jquery.min.js"></script><script src="/open_emis/js/../plugins/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/css/themes/layout.min.css?timestamp=1749721150" >
+
+	<!--[if gte IE 9]>
+	<link rel="stylesheet" href="/open_emis/css/ie/ie9-fixes.css"/>	<![endif]-->
+</head>
+
+<body onload="$('input[type=text]:first').focus()" class="login">
+	<div class="body-wrapper">
+
+		<div class="login-box">
+			<div class="title">
+				<span class="title-wrapper">
+										<i class="kd-openemis"></i>
+										<h1>OpenEMIS Core</h1>
+				</span>
+			</div>
+			<form method="post" accept-charset="utf-8" class="form-horizontal" action="/Users/postLogin">			<div class="input text">
+			<div class="input text"><input type="text" name="username" placeholder="Username" id="username" value=""/></div>			</div>
+			<div class="input password">
+			<div class="input password"><input type="password" name="password" placeholder="Password" id="password" value=""/></div>			</div>
+							<div class="input-select-wrapper">
+				<div class="input select">
+				<div class="input select"><select name="System[language]" onchange="$(&#039;#reload&#039;).click()" id="system-language"><option value="ar">العربية</option><option value="zh">中文</option><option value="en" selected="selected">English</option><option value="fr">Français</option><option value="ru">русский</option><option value="es">español</option></select></div>				</div>
+				</div>
+						<div class="form-group">
+								<button type="submit" name="submit" value="login" class="btn btn-primary btn-login">Login</button>								<button class="hidden" value="reload" name="submit" type="submit" id="reload">reload</button>
+			<div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="3f9d2239103fa82b137c828b992dc61d1e48718d%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="submit"/></div></form>
+			<div class="links-wrapper">
+				<a target="_self" href="./ForgotUsername">Forgot username?</a>
+				<a target="_self" href="./ForgotPassword">Forgot password?</a>
+			</div>
+
+
+			
+						<hr />
+				<center>OR</center>			<hr />
+							<div class="input-select-wrapper sso-options">
+				<div class="input select">
+				<div class="input select"><select name="idp" onchange="window.document.location.href=this.options[this.selectedIndex].value;" id="idp"><option value="0">Select Single Sign On Method</option><option value="/Users/postLogin/Saml/IDP64c8d29f60a6f">Microsoft Azure</option></select></div>				</div>
+				</div>
+			
+			</div>
+		</div>
+
+		<footer>
+            Copyright &copy; 2020 OpenEMIS. All rights reserved.        | Version 5.4.1
+</footer>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,514 @@
+using migration paths 
+ - C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\Migrations
+using seed paths 
+using environment default
+using adapter mysql
+using database openemis_local
+ordering by creation time
+
+ == 20250414123842 POCOR7210: migrating 
+ == 20250414123842 POCOR7210: migrated 0.4719s
+
+ == 20250429113000 POCOR7509: migrating 
+ == 20250429113000 POCOR7509: migrated 0.6053s
+
+ == 20250522072834 POCOR8278: migrating 
+ == 20250522072834 POCOR8278: migrated 2.1104s
+
+ == 20250609074918 POCOR8201: migrating 
+ == 20250609074918 POCOR8201: migrated 0.0997s
+
+ == 20250622203023 POCOR8286: migrating 
+2026-10-22 10:30:40 info: Table columns: Array
+(
+    [0] => id
+    [1] => name
+    [2] => process_name
+    [3] => process_id
+    [4] => frequency
+    [5] => modified_user_id
+    [6] => modified
+    [7] => created_user_id
+    [8] => created
+)
+
+2026-10-22 10:30:40 info: Successfully changed '0000-00-00 00:00:00' to NULL in `alerts`
+2026-10-22 10:30:40 info: Successfully backed up `alerts` to `z_8286_alerts`
+2026-10-22 10:30:40 info: Table columns: Array
+(
+    [0] => id
+    [1] => name
+    [2] => code
+    [3] => type
+    [4] => label
+    [5] => value
+    [6] => value_selection
+    [7] => default_value
+    [8] => editable
+    [9] => visible
+    [10] => field_type
+    [11] => option_type
+    [12] => modified_user_id
+    [13] => modified
+    [14] => created_user_id
+    [15] => created
+)
+
+2026-10-22 10:30:40 info: Successfully changed '0000-00-00 00:00:00' to NULL in `config_items`
+2026-10-22 10:30:40 info: Successfully backed up `config_items` to `z_8286_config_items`
+2026-10-22 10:30:40 info: Table columns: Array
+(
+    [0] => id
+    [1] => external_data_source_type
+    [2] => attribute_field
+    [3] => attribute_name
+    [4] => value
+    [5] => modified
+    [6] => modified_user_id
+    [7] => created
+    [8] => created_user_id
+)
+
+2026-10-22 10:30:40 info: Successfully changed '0000-00-00 00:00:00' to NULL in `external_data_source_attributes`
+2026-10-22 10:30:40 info: Successfully backed up `external_data_source_attributes` to `z_8286_external_data_source_attributes`
+2026-10-22 10:30:40 info: Table columns: Array
+(
+    [0] => id
+    [1] => message
+    [2] => subject
+    [3] => recipient_level_id
+    [4] => recipient_group_id
+    [5] => academic_period_id
+    [6] => institution_id
+    [7] => status
+    [8] => created_user_id
+    [9] => created
+    [10] => modified_user_id
+    [11] => modified
+)
+
+2026-10-22 10:30:40 info: Successfully changed '0000-00-00 00:00:00' to NULL in `messaging`
+2026-10-22 10:30:40 info: Successfully backed up `messaging` to `z_8286_messaging`
+2026-10-22 10:30:40 info: Renamed 'Student Attendance' to 'StudentAttendance'
+2026-10-22 10:30:40 info: Inserted new alert for 'StudentEnrolment'
+2026-10-22 10:30:40 info: Updated frequency to 'Once' for alerts with process_name in ('AlertAttendance', 'AlertStudentAdmission')
+2026-10-22 10:30:40 info: Removed all config items with type 'SMS'
+2026-10-22 10:30:40 info: Inserted config item: Twilio
+2026-10-22 10:30:40 info: Current columns in `messaging`: id, message, subject, recipient_level_id, recipient_group_id, academic_period_id, institution_id, status, created_user_id, created, modified_user_id, modified
+2026-10-22 10:30:41 info: Added 'method' field to 'messaging' table
+ == 20250622203023 POCOR8286: migrated 0.8863s
+
+ == 20250623124141 POCOR8037: migrating 
+2026-10-22 10:30:41 info: Disabled foreign key checks.
+2026-10-22 10:30:41 info: Created backup table for: institution_rooms
+2026-10-22 10:30:41 info: Created backup table for: institution_floors
+2026-10-22 10:30:41 info: Created backup table for: institution_buildings
+2026-10-22 10:30:42 info: Created backup table for: institution_lands
+2026-10-22 10:30:42 info: Dropped index: academic_period_id from table: institution_rooms
+2026-10-22 10:30:42 info: Removed column: academic_period_id from table: institution_rooms
+2026-10-22 10:30:42 info: Dropped index: academic_period_id from table: institution_floors
+2026-10-22 10:30:42 info: Removed column: academic_period_id from table: institution_floors
+2026-10-22 10:30:42 info: Dropped index: academic_period_id from table: institution_buildings
+2026-10-22 10:30:42 info: Removed column: academic_period_id from table: institution_buildings
+2026-10-22 10:30:42 info: Dropped index: academic_period_id from table: institution_lands
+2026-10-22 10:30:43 info: Removed column: academic_period_id from table: institution_lands
+2026-10-22 10:30:43 info: Kept only the latest data for table: institution_rooms
+2026-10-22 10:30:43 info: Kept only the latest data for table: institution_floors
+2026-10-22 10:30:43 info: Kept only the latest data for table: institution_buildings
+2026-10-22 10:30:43 info: Kept only the latest data for table: institution_lands
+2026-10-22 10:30:43 info: Created temporary mapping table for: institution_lands
+2026-10-22 10:30:43 info: Updated references in table: land_custom_field_values for column: institution_land_id
+2026-10-22 10:30:43 info: Updated foreign key references for table: institution_lands
+2026-10-22 10:30:43 info: Created temporary mapping table for: institution_buildings
+2026-10-22 10:30:43 info: Updated references in table: building_custom_field_values for column: institution_building_id
+2026-10-22 10:30:43 info: Updated foreign key references for table: institution_buildings
+2026-10-22 10:30:43 info: Created temporary mapping table for: institution_floors
+2026-10-22 10:30:43 info: Updated references in table: floor_custom_field_values for column: institution_floor_id
+2026-10-22 10:30:43 info: Updated foreign key references for table: institution_floors
+2026-10-22 10:30:43 info: Created temporary mapping table for: institution_rooms
+2026-10-22 10:30:43 info: Updated references in table: institution_assets for column: institution_room_id
+2026-10-22 10:30:43 info: Updated references in table: institution_schedule_lesson_rooms for column: institution_room_id
+2026-10-22 10:30:43 info: Updated references in table: institution_subjects_rooms for column: institution_room_id
+2026-10-22 10:30:43 info: Updated references in table: room_custom_field_values for column: institution_room_id
+2026-10-22 10:30:43 info: Updated foreign key references for table: institution_rooms
+2026-10-22 10:30:43 info: Updated start dates for table: institution_rooms
+2026-10-22 10:30:43 info: Updated start dates for table: institution_floors
+2026-10-22 10:30:43 info: Updated start dates for table: institution_buildings
+2026-10-22 10:30:43 info: Updated start dates for table: institution_lands
+2026-10-22 10:30:43 info: Made column: end_date nullable in table: institution_rooms
+2026-10-22 10:30:43 info: Made column: end_year nullable in table: institution_rooms
+2026-10-22 10:30:43 info: Made end_date and end_year nullable for table: institution_rooms
+2026-10-22 10:30:43 info: Made column: end_date nullable in table: institution_floors
+2026-10-22 10:30:43 info: Made column: end_year nullable in table: institution_floors
+2026-10-22 10:30:43 info: Made end_date and end_year nullable for table: institution_floors
+2026-10-22 10:30:43 info: Made column: end_date nullable in table: institution_buildings
+2026-10-22 10:30:43 info: Made column: end_year nullable in table: institution_buildings
+2026-10-22 10:30:43 info: Made end_date and end_year nullable for table: institution_buildings
+2026-10-22 10:30:43 info: Made column: end_date nullable in table: institution_lands
+2026-10-22 10:30:43 info: Made column: end_year nullable in table: institution_lands
+2026-10-22 10:30:43 info: Made end_date and end_year nullable for table: institution_lands
+2026-10-22 10:30:43 info: Cleared end_date and end_year for active records in table: institution_rooms
+2026-10-22 10:30:43 info: Cleared end_date and end_year for active records in table: institution_floors
+2026-10-22 10:30:43 info: Cleared end_date and end_year for active records in table: institution_buildings
+2026-10-22 10:30:43 info: Cleared end_date and end_year for active records in table: institution_lands
+2026-10-22 10:30:43 info: Re-enabled foreign key checks.
+ == 20250623124141 POCOR8037: migrated 2.5208s
+
+ == 20250624102607 POCOR9201: migrating 
+ == 20250624102607 POCOR9201: migrated 0.4033s
+
+ == 20250701060253 POCOR5208: migrating 
+ == 20250701060253 POCOR5208: migrated 0.6135s
+
+ == 20250703101401 POCOR9156: migrating 
+ == 20250703101401 POCOR9156: migrated 0.0976s
+
+ == 20250703155339 POCOR9164: migrating 
+ == 20250703155339 POCOR9164: migrated 0.1187s
+
+ == 20250707101205 POCOR9253: migrating 
+ == 20250707101205 POCOR9253: migrated 0.3691s
+
+ == 20250711044837 POCOR8030: migrating 
+2026-10-22 10:30:45 info: Disabled foreign key checks.
+2026-10-22 10:30:45 info: Backed up table `security_functions` to `z_8030_security_functions`.
+2026-10-22 10:30:45 info: Backed up table `config_items` to `z_8030_config_items`.
+2026-10-22 10:30:45 info: Backed up table `config_item_options` to `z_8030_config_item_options`.
+2026-10-22 10:30:45 info: Backup tables created.
+2026-10-22 10:30:45 info: Inserted security function record into security_functions.
+2026-10-22 10:30:45 info: Added new security function: Departments.
+2026-10-22 10:30:45 info: Created table institution_departments.
+2026-10-22 10:30:45 info: Added foreign keys to institution_departments.
+2026-10-22 10:30:45 info: Created table department_staff with foreign keys.
+2026-10-22 10:30:45 info: Created institution_departments and department_staff tables.
+2026-10-22 10:30:45 info: Inserted config_items record.
+2026-10-22 10:30:45 info: Inserted config_item_option: Enable.
+2026-10-22 10:30:45 info: Inserted config_item_option: Disable.
+2026-10-22 10:30:45 info: Inserted config_items and config_item_options.
+2026-10-22 10:30:45 info: Re-enabled foreign key checks.
+ == 20250711044837 POCOR8030: migrated 0.2106s
+
+ == 20250711132105 POCOR9254: migrating 
+ == 20250711132105 POCOR9254: migrated 0.0339s
+
+ == 20250715101602 POCOR5199: migrating 
+ == 20250715101602 POCOR5199: migrated 0.4968s
+
+ == 20250730113023 POCOR9303: migrating 
+2026-10-22 10:30:46 info: Table columns: Array
+(
+    [0] => id
+    [1] => option_type
+    [2] => option
+    [3] => value
+    [4] => order
+    [5] => visible
+)
+
+2026-10-22 10:30:46 info: Successfully backed up `config_item_options` to `z_9303_config_item_options`
+2026-10-22 10:30:46 info: Table columns: Array
+(
+    [0] => id
+    [1] => name
+    [2] => code
+    [3] => type
+    [4] => label
+    [5] => value
+    [6] => value_selection
+    [7] => default_value
+    [8] => editable
+    [9] => visible
+    [10] => field_type
+    [11] => option_type
+    [12] => modified_user_id
+    [13] => modified
+    [14] => created_user_id
+    [15] => created
+)
+
+2026-10-22 10:30:46 info: Successfully changed '0000-00-00 00:00:00' to NULL in `config_items`
+2026-10-22 10:30:46 info: Successfully backed up `config_items` to `z_9303_config_items`
+2026-10-22 10:30:46 info: Table columns: Array
+(
+    [0] => id
+    [1] => external_data_source_type
+    [2] => attribute_field
+    [3] => attribute_name
+    [4] => value
+    [5] => modified
+    [6] => modified_user_id
+    [7] => created
+    [8] => created_user_id
+)
+
+2026-10-22 10:30:46 info: Successfully changed '0000-00-00 00:00:00' to NULL in `external_data_source_attributes`
+2026-10-22 10:30:46 info: Successfully backed up `external_data_source_attributes` to `z_9303_external_data_source_attributes`
+2026-10-22 10:30:46 info: Inserted config item option: 
+2026-10-22 10:30:46 info: Inserted config item option: 
+2026-10-22 10:30:46 info: Inserted config item option: 
+2026-10-22 10:30:46 info: Inserted config item: PDF Service
+ == 20250730113023 POCOR9303: migrated 0.0996s
+
+ == 20250804215023 POCOR9306: migrating 
+ == 20250804215023 POCOR9306: migrated 0.1072s
+
+ == 20250808151105 POCOR9329: migrating 
+ == 20250808151105 POCOR9329: migrated 0.0407s
+
+ == 20250809224800 POCOR9331: migrating 
+ == 20250809224800 POCOR9331: migrated 0.0636s
+
+ == 20250814114023 POCOR9322: migrating 
+ == 20250814114023 POCOR9322: migrated 0.0308s
+
+ == 20250818182514 POCOR9256: migrating 
+ == 20250818182514 POCOR9256: migrated 0.0532s
+
+ == 20250821211510 POCOR9353: migrating 
+ == 20250821211510 POCOR9353: migrated 0.0317s
+
+ == 20250822100955 POCOR9360: migrating 
+ == 20250822100955 POCOR9360: migrated 0.0477s
+
+ == 20250901101511 POCOR9339: migrating 
+ == 20250901101511 POCOR9339: migrated 0.1662s
+
+ == 20250901113000 POCOR9366: migrating 
+ == 20250901113000 POCOR9366: migrated 0.0094s
+
+ == 20250926114010 POCOR9407: migrating 
+ == 20250926114010 POCOR9407: migrated 0.2295s
+
+ == 20251001113000 POCOR9391: migrating 
+ == 20251001113000 POCOR9391: migrated 0.0427s
+
+ == 20251010113000 POCOR9431: migrating 
+ == 20251010113000 POCOR9431: migrated 0.0445s
+
+ == 20251017113000 POCOR9440: migrating 
+ == 20251017113000 POCOR9440: migrated 0.1023s
+
+ == 20251024115101 POCOR9404: migrating 
+ == 20251024115101 POCOR9404: migrated 0.0345s
+
+ == 20251026140745 POCOR9436: migrating 
+ == 20251026140745 POCOR9436: migrated 0.0537s
+
+ == 20251126122149 POCOR9476: migrating 
+ == 20251126122149 POCOR9476: migrated 0.0387s
+
+ == 20251217121014 POCOR9493: migrating 
+ == 20251217121014 POCOR9493: migrated 0.0633s
+
+ == 20251227153352 POCOR9481: migrating 
+ == 20251227153352 POCOR9481: migrated 0.0994s
+
+ == 20260113040152 POCOR9403: migrating 
+2026-10-22 10:30:48 info: Created webhook: Custom Logout (logout)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Create (institution_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Delete (institution_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Update (institution_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Academic Period Create (academic_period_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Academic Period Update (academic_period_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Academic Period Delete (academic_period_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Area Education Create (area_education_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Area Education Update (area_education_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Area Education Delete (area_education_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Grade Create (education_grade_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Grade Update (education_grade_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Grade Delete (education_grade_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Cycle Create (education_cycle_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Cycle Update (education_cycle_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Cycle Delete (education_cycle_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Grade Subject Create (education_grade_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Grade Subject Update (education_grade_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Grade Subject Delete (education_grade_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Level Create (education_level_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Level Update (education_level_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Level Delete (education_level_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Programme Create (education_programme_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Programme Update (education_programme_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Programme Delete (education_programme_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education System Create (education_system_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education System Update (education_system_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education System Delete (education_system_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Subject Create (education_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Subject Update (education_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Education Subject Delete (education_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Security Role Create (security_role_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Security Role Update (security_role_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Security Role Delete (security_role_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Security User Create (security_user_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Security User Update (security_user_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Security User Delete (security_user_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Staff Create (staff_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Staff Update (staff_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Staff Delete (staff_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Student Create (student_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Student Update (student_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Student Delete (student_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Class Student Create (class_student_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Class Student Update (class_student_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Class Student Delete (class_student_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Class Create (institution_class_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Class Update (institution_class_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Class Delete (institution_class_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Grade Create (institution_grade_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Grade Update (institution_grade_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Grade Delete (institution_grade_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Subject Create (institution_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Subject Update (institution_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Institution Subject Delete (institution_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Exams Student Guardian Create (student_guardian_create)
+2026-10-22 10:30:48 info: Created webhook: Exams Student Guardian Update (student_guardian_update)
+2026-10-22 10:30:48 info: Created webhook: Exams Student Guardian Delete (student_guardian_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Create (institution_create)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Delete (institution_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Update (institution_update)
+2026-10-22 10:30:48 info: Created webhook: Core Academic Period Create (academic_period_create)
+2026-10-22 10:30:48 info: Created webhook: Core Academic Period Update (academic_period_update)
+2026-10-22 10:30:48 info: Created webhook: Core Academic Period Delete (academic_period_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Area Education Create (area_education_create)
+2026-10-22 10:30:48 info: Created webhook: Core Area Education Update (area_education_update)
+2026-10-22 10:30:48 info: Created webhook: Core Area Education Delete (area_education_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education Grade Create (education_grade_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education Grade Update (education_grade_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education Grade Delete (education_grade_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education Cycle Create (education_cycle_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education Cycle Update (education_cycle_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education Cycle Delete (education_cycle_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education Grade Subject Create (education_grade_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education Grade Subject Update (education_grade_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education Grade Subject Delete (education_grade_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education Level Create (education_level_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education Level Update (education_level_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education Level Delete (education_level_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education Programme Create (education_programme_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education Programme Update (education_programme_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education Programme Delete (education_programme_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education System Create (education_system_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education System Update (education_system_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education System Delete (education_system_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Education Subject Create (education_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Core Education Subject Update (education_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Core Education Subject Delete (education_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Security Role Create (security_role_create)
+2026-10-22 10:30:48 info: Created webhook: Core Security Role Update (security_role_update)
+2026-10-22 10:30:48 info: Created webhook: Core Security Role Delete (security_role_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Security User Create (security_user_create)
+2026-10-22 10:30:48 info: Created webhook: Core Security User Update (security_user_update)
+2026-10-22 10:30:48 info: Created webhook: Core Security User Delete (security_user_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Staff Create (staff_create)
+2026-10-22 10:30:48 info: Created webhook: Core Staff Update (staff_update)
+2026-10-22 10:30:48 info: Created webhook: Core Staff Delete (staff_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Student Create (student_create)
+2026-10-22 10:30:48 info: Created webhook: Core Student Update (student_update)
+2026-10-22 10:30:48 info: Created webhook: Core Student Delete (student_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Class Student Create (class_student_create)
+2026-10-22 10:30:48 info: Created webhook: Core Class Student Update (class_student_update)
+2026-10-22 10:30:48 info: Created webhook: Core Class Student Delete (class_student_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Class Create (institution_class_create)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Class Update (institution_class_update)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Class Delete (institution_class_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Grade Create (institution_grade_create)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Grade Update (institution_grade_update)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Grade Delete (institution_grade_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Subject Create (institution_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Subject Update (institution_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Core Institution Subject Delete (institution_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Core Student Guardian Create (student_guardian_create)
+2026-10-22 10:30:48 info: Created webhook: Core Student Guardian Update (student_guardian_update)
+2026-10-22 10:30:48 info: Created webhook: Core Student Guardian Delete (student_guardian_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Create (institution_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Delete (institution_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Update (institution_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Academic Period Create (academic_period_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Academic Period Update (academic_period_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Academic Period Delete (academic_period_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Area Education Create (area_education_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Area Education Update (area_education_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Area Education Delete (area_education_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Grade Create (education_grade_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Grade Update (education_grade_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Grade Delete (education_grade_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Cycle Create (education_cycle_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Cycle Update (education_cycle_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Cycle Delete (education_cycle_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Grade Subject Create (education_grade_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Grade Subject Update (education_grade_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Grade Subject Delete (education_grade_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Level Create (education_level_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Level Update (education_level_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Level Delete (education_level_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Programme Create (education_programme_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Programme Update (education_programme_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Programme Delete (education_programme_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education System Create (education_system_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education System Update (education_system_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education System Delete (education_system_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Subject Create (education_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Subject Update (education_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Education Subject Delete (education_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Security Role Create (security_role_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Security Role Update (security_role_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Security Role Delete (security_role_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Security User Create (security_user_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Security User Update (security_user_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Security User Delete (security_user_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Staff Create (staff_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Staff Update (staff_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Staff Delete (staff_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Student Create (student_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Student Update (student_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Student Delete (student_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Class Student Create (class_student_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Class Student Update (class_student_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Class Student Delete (class_student_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Class Create (institution_class_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Class Update (institution_class_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Class Delete (institution_class_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Grade Create (institution_grade_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Grade Update (institution_grade_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Grade Delete (institution_grade_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Subject Create (institution_subject_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Subject Update (institution_subject_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Institution Subject Delete (institution_subject_delete)
+2026-10-22 10:30:48 info: Created webhook: Custom Student Guardian Create (student_guardian_create)
+2026-10-22 10:30:48 info: Created webhook: Custom Student Guardian Update (student_guardian_update)
+2026-10-22 10:30:48 info: Created webhook: Custom Student Guardian Delete (student_guardian_delete)
+ == 20260113040152 POCOR9403: migrated 1.1808s
+
+ == 20260203123450 POCOR9549: migrating 
+ == 20260203123450 POCOR9549: migrated 0.1472s
+
+ == 20260219142101 POCOR9475: migrating 
+ == 20260219142101 POCOR9475: migrated 0.5246s
+
+ == 20260223131300 POCOR9525: migrating 
+2026-10-22 10:30:49 info: Normalized invalid modified timestamps in `labels`
+2026-10-22 10:30:49 info: Normalized invalid created timestamps in `labels`
+2026-10-22 10:30:49 info: Backed up `labels` to `z_9525_labels`
+2026-10-22 10:30:49 info: Inserted labels for Gross Salary and Net Salary in module `InstitutionStaffFinanceSalaries`
+ == 20260223131300 POCOR9525: migrated 0.0483s
+
+ == 20260225120000 POCOR9586: migrating 
+ == 20260225120000 POCOR9586: migrated 0.0686s
+
+ == 20260226153170 POCOR9585: migrating 
+ == 20260226153170 POCOR9585: migrated 0.0620s
+
+ == 20260312062543 POCOR9599: migrating 
+ == 20260312062543 POCOR9599: migrated 0.0927s
+
+ == 20260331000000 POCOR9257: migrating 
+ == 20260331000000 POCOR9257: migrated 0.0694s
+
+All Done. Took 12.7733s
+
+Dumps the current schema of the database to be used while baking a diff
+
+using migration paths 
+ - C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\Migrations
+using seed paths 
+Writing dump file `C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\Migrations\schema-dump-default.lock`...
+Dump file `C:\Users\MATTHEW\Documents\openemis-core-v5.7.0\openemis-core\config\Migrations\schema-dump-default.lock` was successfully written
