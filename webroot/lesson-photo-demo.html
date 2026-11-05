@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>توثيق الحصص بالصور — عرض تجريبي</title>
+<link rel="stylesheet" href="lesson-photo-demo.css">
+<script src="lesson-photo-demo.js" defer></script>
+</head>
+<body>
+<header><div class="brand">OpenEMIS <span>متابعة التعليم</span></div><a href="/Dashboard">العودة للنظام ←</a></header>
+<main>
+<div class="intro"><div><p class="eyebrow">مدرسة التجربة — متابعة التعليم</p><h1>كل حصة، بداية ونهاية موثّقة.</h1><p>صورة للمعلم مع الطلاب عند بداية الحصة وصورة عند نهايتها، ثم مراجعة المؤسسة.</p></div><span class="demo">عرض تجريبي</span></div>
+<div class="notice">ديمو للعرض فقط. الصور محفوظة في هذا المتصفح؛ تبديـل الأدوار محاكاة، ولا يوجد ربط بالبصمة أو تحقق من وقت التقاط الصورة. استخدم صورًا تجريبية.</div>
+<nav aria-label="واجهات العرض"><button id="teacher-tab" class="active" aria-pressed="true">واجهة المعلم</button><button id="review-tab" aria-pressed="false">مراجعة المؤسسة <span id="pending-count">0</span></button><button id="sample-lesson" class="secondary">تجربة سريعة بصور توضيحية</button></nav>
+<p id="message" role="status" aria-live="polite" hidden></p>
+<section id="teacher-panel">
+<div class="workspace">
+<aside class="card"><p class="eyebrow">01 / بيانات الحصة</p><h2>معلم تجريبي المتابعة</h2><p class="muted">اختَر الحصة ثم وثّق بدايتها ونهايتها.</p>
+<label for="lesson-date">تاريخ الحصة</label><input type="date" id="lesson-date" required>
+<label for="lesson-class">الشعبة</label><select id="lesson-class"><option value="1">تمهيدي أول — أ</option></select>
+<label for="lesson-period">الحصة</label><select id="lesson-period"><option value="1">الحصة الأولى</option><option value="2">الحصة الثانية</option><option value="3">الحصة الثالثة</option><option value="4">الحصة الرابعة</option></select>
+<label for="lesson-subject">موضوع الدرس</label><input id="lesson-subject" maxlength="120" placeholder="مثال: كتابة الاسم" value="كتابة الاسم">
+<div class="state-box"><span class="muted">حالة التوثيق</span><strong id="lesson-status">لم تبدأ</strong><small id="duration">لم تُرفع صور بعد</small><p id="review-feedback" class="note-text" hidden></p></div>
+</aside>
+<div class="evidence">
+<div class="card photo-card"><div class="step-heading"><div><p class="eyebrow">02 / بداية الحصة</p><h2>صورة البداية</h2></div><span class="step">1</span></div>
+<div id="start-preview" class="preview"><span>المعلم والطلاب داخل الفصل</span></div>
+<p id="start-time" class="timestamp">بانتظار صورة البداية</p>
+<label class="upload" id="start-label" for="start-file">إضافة صورة البداية</label><input class="file-input" type="file" id="start-file" accept="image/jpeg,image/png,image/webp" capture="user">
+<small>JPG / PNG / WEBP · حتى 5 ميجابايت</small></div>
+<div class="card photo-card"><div class="step-heading"><div><p class="eyebrow">03 / نهاية الحصة</p><h2>صورة النهاية</h2></div><span class="step">2</span></div>
+<div id="end-preview" class="preview"><span>أكمل توثيق البداية أولًا</span></div>
+<p id="end-time" class="timestamp">بانتظار صورة النهاية</p>
+<label class="upload disabled" id="end-label" for="end-file">إضافة صورة النهاية</label><input class="file-input" type="file" id="end-file" accept="image/jpeg,image/png,image/webp" capture="user" disabled>
+<small>تُرسل الحصة للمراجعة بعد حفظ الصورتين</small></div>
+<div class="card teacher-note"><label for="lesson-note">ملاحظة المعلم <span class="muted">(اختياري)</span></label><textarea id="lesson-note" rows="2" maxlength="600" placeholder="مثال: تم تنفيذ نشاط كتابة الأسماء."></textarea><button id="save-note" class="secondary">حفظ بيانات الحصة والملاحظة</button></div>
+</div></div>
+</section>
+<section id="review-panel" hidden>
+<div class="review-intro"><div><h2>مراجعة توثيق الحصص</h2><p class="muted">راجِع الصورتين ووقت الرفع قبل تسجيل قرار المراجعة التجريبي.</p></div><label>عرض <select id="review-filter"><option value="all">كل الحصص</option><option value="pending">بانتظار المراجعة</option><option value="approved">معتمدة</option><option value="returned">معادة للمعلم</option></select></label></div>
+<div id="review-list"></div>
+</section>
+<footer>توثيق الصور يدعم متابعة تنفيذ الحصة. تقييم جودة التدريس يتم عبر الإشراف وأهداف التعلم.</footer>
+</main></body></html>
