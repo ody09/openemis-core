@@ -210,7 +210,7 @@ $institutionId = $paramsQuery['institution_id'];
 		<bg-splitter orientation="horizontal" class="content-splitter" elements="getSplitterElements" ng-init="$ctrl.institutionId=<?= $institution_id ?>; $ctrl.excelUrl='<?= $excelUrl;?>'; $ctrl.history=<?= $_history ? $_history : 0 ?>;$ctrl.ownEdit=<?= $_ownEdit ? $_ownEdit : 0 ?>;$ctrl.ownView=<?= $_ownView ? $_ownView : 0 ?>;$ctrl.otherEdit=<?= $_otherEdit ? $_otherEdit : 0 ?>;$ctrl.otherView=<?= $_otherView ? $_otherView : 0 ?>;$ctrl.permissionStaffId=<?= $_permissionStaffId ? $_permissionStaffId : 0 ?>;" float-btn="true">
 
             <bg-pane class="main-content">
-                <?php if ((int)$institution_id === 1) : ?>
+                <?php if (in_array((int)$institution_id, (array)\Cake\Core\Configure::read('SchoolMonitoring.lessonPhotoDemoInstitutionIds', []), true)) : ?>
                     <div class="alert alert-info" style="margin-bottom: 15px;">
                         <?= $this->Html->link('توثيق الحصص بالصور — ديمو', '/lesson-photo-demo.html', [
                             'class' => 'btn btn-default', 'target' => '_blank', 'rel' => 'noopener'
