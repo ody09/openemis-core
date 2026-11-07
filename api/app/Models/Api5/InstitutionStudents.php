@@ -43,8 +43,6 @@ class InstitutionStudents extends Model
 
     protected static function boot()
     {
-        // CakePHP and the API share the same enrollment policy.
-        require_once dirname(__DIR__, 4) . '/src/SchoolMonitoring/GuardianContactPolicy.php';
         parent::boot();
         self::bootUuidId();
         static::saving(function ($student) {
