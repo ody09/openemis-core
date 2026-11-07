@@ -407,7 +407,8 @@ class AppController extends Controller
         $session = $this->request->getSession();
         $superAdmin = $session->read('Auth.User.super_admin');
         //POCOR-8595 starts
-        if (!is_null($_COOKIE['Restful'])) {
+        // The Restful cookie is client-controlled, so only Rest plugin requests (token-authenticated) may skip these checks.
+        if ($this->getPlugin() === 'Rest') {
             return true;
         } //POCOR-8595 ends
         if ($superAdmin == 0) {

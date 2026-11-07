@@ -20,7 +20,6 @@ class AuthenticateJwt
 
             if (!$user) {
                 Log::warning('AuthenticateJwt: Token parsed but no user found.', [
-                    'token' => $request->bearerToken(),
                     'time' => now()->toDateTimeString(),
                 ]);
                 return response()->json(['error' => 'Unauthorized (no user)'], 401);
@@ -29,21 +28,18 @@ class AuthenticateJwt
         } catch (TokenExpiredException $e) {
             Log::warning('AuthenticateJwt: Token expired.', [
                 'message' => $e->getMessage(),
-                'token' => $request->bearerToken(),
             ]);
             return response()->json(['error' => 'Token Expired'], 401);
 
         } catch (TokenInvalidException $e) {
             Log::warning('AuthenticateJwt: Token invalid.', [
                 'message' => $e->getMessage(),
-                'token' => $request->bearerToken(),
             ]);
             return response()->json(['error' => 'Token Invalid'], 401);
 
         } catch (JWTException $e) {
             Log::warning('AuthenticateJwt: JWT Exception.', [
                 'message' => $e->getMessage(),
-                'token' => $request->bearerToken(),
             ]);
             return response()->json(['error' => 'Unauthorized'], 401);
         }

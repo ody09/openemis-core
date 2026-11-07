@@ -205,7 +205,7 @@ class UsersController extends AppController
                     return $this->redirect(['plugin' => 'User', 'controller' => 'Users', 'action' => 'login']);
                 }
                 //Log::write('debug', "5");
-                $checksum = Security::hash($userId . $expiryFormat, 'sha256');
+                $checksum = bin2hex(random_bytes(32));
                 $storedChecksum = Security::hash($checksum, 'sha256');
                 $passwordRequestData = [
                     'user_id' => $userId,
@@ -408,6 +408,16 @@ class UsersController extends AppController
                     ->first();
 
                 if (!is_null($passwordRequestEntity)) {
+                    $now = new DateTime();
+                    $now->setTimezone(new \DateTimeZone('UTC'));
+                    $expiry = $passwordRequestEntity->expiry_date->setTimezone(new \DateTimeZone('UTC'));
+                    if ($now > $expiry) {
+                        $SecurityUserPasswordRequests->delete($passwordRequestEntity);
+                        $message = __('Sorry, there was an error. Please retry your request.');
+                        $this->Alert->error($message, ['type' => 'string', 'reset' => true]);
+                        return $this->redirect(['plugin' => 'User', 'controller' => 'Users', 'action' => 'login']);
+                    }
+
                     $userId = $passwordRequestEntity->user_id;
 
                     $Passwords = TableRegistry::getTableLocator()->get('User.Passwords');

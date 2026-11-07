@@ -1,6 +1,1 @@
-Options +Indexes
-
-# Deny access to hidden files like .htaccess, .htpasswd
-<FilesMatch "^\.ht">
-  Require all denied
-</FilesMatch>
+Require all denied

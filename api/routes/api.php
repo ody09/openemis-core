@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BaseApi\CrudApiController;
+use Tymon\JWTAuth\Facades\JWTAuth;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,10 +16,13 @@ use App\Http\Controllers\BaseApi\CrudApiController;
 |
 */
 
-Route::group(['prefix' => 'v4'], function () {
+Route::group(['prefix' => 'v4', 'middleware' => 'auth.jwt'], function () {
     Route::get(
         'clear-cache',
         function () {
+            if ((int) optional(JWTAuth::user())->super_admin !== 1) {
+                abort(403);
+            }
             Artisan::call('route:clear');
             Artisan::call('clear-compiled');
             Artisan::call('config:cache');
@@ -27,10 +31,13 @@ Route::group(['prefix' => 'v4'], function () {
         }
     );
 });
-Route::group(['prefix' => 'v5'], function () {
+Route::group(['prefix' => 'v5', 'middleware' => 'auth.jwt'], function () {
     Route::get(
         'clear-cache',
         function () {
+            if ((int) optional(JWTAuth::user())->super_admin !== 1) {
+                abort(403);
+            }
             Artisan::call('route:clear');
             Artisan::call('clear-compiled');
             Artisan::call('config:cache');

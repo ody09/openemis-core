@@ -17,7 +17,7 @@ class CachesController extends AppController
     public function beforeFilter(Event|\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
-        $this->Auth->allow(['clear', 'server', 'pull']);
+        $this->Auth->allow(['clear', 'server']);
     }
 
     public function clear()
@@ -41,7 +41,7 @@ class CachesController extends AppController
     public function pull()
     {
         $this->autoRender = false;
-        if (Configure::read('debug')) {
+        if (Configure::read('debug') && $this->Auth->user('super_admin') == 1) {
             $output = [];
             exec('git pull', $output);
             pr($output);

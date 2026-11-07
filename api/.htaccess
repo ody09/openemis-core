@@ -11,6 +11,11 @@
         Deny from all
     </Files>
 
+    # This folder sits under the web root, so only the front controller and public/ may be served directly
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule !^(index\.php|public/.*)?$ - [F,L]
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
