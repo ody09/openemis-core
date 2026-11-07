@@ -1,0 +1,3 @@
+# Machine-local runtime, caches, dumps and logs; may contain credentials and personal data.
+.local/*
+!.local/router.php
