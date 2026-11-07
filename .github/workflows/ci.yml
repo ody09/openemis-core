@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  php:
+    runs-on: ubuntu-latest
+    env:
+      # Upstream files that already fail `php -l`; remove an entry once it is fixed.
+      LINT_KNOWN_BROKEN: |
+        plugins/Training/src/View/Helper/ControllerActionHelper.php
+        src/Template/Element/controls.php
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: pdo_sqlite, mbstring, intl, gd, zip, curl, sodium, fileinfo
+          coverage: none
+          tools: composer:v2
+
+      - name: Lint PHP
+        run: |
+          printf '%s\n' "$LINT_KNOWN_BROKEN" | sed '/^$/d' > /tmp/lint-skip.txt
+          git ls-files -- 'src/*.php' 'plugins/*.php' 'config/*.php' 'bin/*.php' 'webroot/*.php' \
+            'api/app/*.php' 'api/routes/*.php' 'api/config/*.php' \
+            'tests/SchoolMonitoring/*.php' 'tests/SchoolMonitoringApi/*.php' \
+            | grep -vxF -f /tmp/lint-skip.txt \
+            | xargs -n1 -P4 php -d display_errors=stderr -l > /dev/null
+
+      - name: SchoolMonitoring tests
+        run: php vendor/phpunit/phpunit/phpunit --no-configuration --do-not-cache-result --bootstrap vendor/autoload.php tests/SchoolMonitoring
+
+      - name: Install API dependencies
+        working-directory: api
+        run: composer install --no-interaction --no-progress --prefer-dist --no-scripts
+
+      - name: API enrollment tests
+        run: php tests/SchoolMonitoringApi/run.php --no-configuration --do-not-cache-result tests/SchoolMonitoringApi/ApiEnrollmentGuardianTest.php
+
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: SchoolMonitoring JavaScript tests
+        run: node --test tests/SchoolMonitoring/*.test.cjs
