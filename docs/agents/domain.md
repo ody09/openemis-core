@@ -11,6 +11,7 @@ This is a single-context project. Domain vocabulary belongs in root `GLOSSARY.md
 - If a root `GLOSSARY-MAP.md` is introduced later, follow it to the relevant context glossaries and decisions.
 - If glossary or ADR files do not exist, proceed silently. Do not require placeholder documents or suggest creating them upfront. Domain-modeling workflows create them when terms or decisions are actually resolved.
 - Existing pilot context lives in `docs/school-monitoring-pilot.md`, `docs/lesson-photo-demo.md`, and relevant documents under `docs/superpowers/`. Consult these when working on school-monitoring features; distinguish prototype limitations from implemented production behavior.
+- The current local behavior is the section «حالة 7 نوفمبر 2026» at the top of `docs/school-monitoring-pilot.md`. Earlier sections in that file, and `docs/lesson-photo-demo.md`, describe older steps. The HTML lesson-photo page is not the feature now running in OpenEMIS.
 
 ## Vocabulary
 

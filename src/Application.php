@@ -170,6 +170,7 @@ class Application extends BaseApplication
 
         $this->addPlugin('Archive', ['bootstrap' => false, 'routes' => true]);
         $this->addPlugin('Gpa', ['routes' => true, 'autoload' => true]);
+        $this->addPlugin('SchoolMonitoring', ['routes' => true]);
 
         // Load more plugins here
     }

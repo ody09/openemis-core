@@ -87,6 +87,20 @@ return function (RouteBuilder $routes) {
     $routes->connect('/ProfileTemplates/Staff/*', ['plugin' => 'ProfileTemplate', 'controller' => 'ProfileTemplates', 'action' => 'Staff']);
     $routes->connect('/ProfileTemplates/Classes/*', ['plugin' => 'ProfileTemplate', 'controller' => 'ProfileTemplates', 'action' => 'Classes']);
     $routes->connect('/ProfileTemplates/Institutions/*', ['plugin' => 'ProfileTemplate', 'controller' => 'ProfileTemplates', 'action' => 'Institutions']);
+
+    $routes->connect('/LessonPhotos', ['plugin' => 'SchoolMonitoring', 'controller' => 'LessonPhotos', 'action' => 'index']);
+    $routes->connect('/LessonPhotos/:action/*', ['plugin' => 'SchoolMonitoring', 'controller' => 'LessonPhotos']);
+    $routes->connect('/TextbookLoans', ['plugin' => 'SchoolMonitoring', 'controller' => 'TextbookLoans', 'action' => 'index']);
+    $routes->connect('/TextbookLoans/:action/*', ['plugin' => 'SchoolMonitoring', 'controller' => 'TextbookLoans']);
+    $routes->connect('/Clearance', ['plugin' => 'SchoolMonitoring', 'controller' => 'Clearance', 'action' => 'index']);
+    $routes->connect('/Clearance/:action/*', ['plugin' => 'SchoolMonitoring', 'controller' => 'Clearance']);
+    $routes->connect('/Supplies/:action/*', ['plugin' => 'SchoolMonitoring', 'controller' => 'Supplies']);
+    $routes->connect('/Biometric/:action/*', ['plugin' => 'SchoolMonitoring', 'controller' => 'Biometric']);
+    $routes->scope('/SchoolMonitoring', ['plugin' => 'SchoolMonitoring'], function (RouteBuilder $routes) {
+        $routes->connect('/:controller', ['action' => 'index']);
+        $routes->connect('/:controller/:action/*', []);
+    });
+
     $routes->connect('/:controller/:action/*', ['action' => 'Healths', '_method' => 'GET'], ['pass' => ['key']]);
 
     /**

@@ -99,7 +99,8 @@
             "Restful\\": "./vendor/korditpteltd/ikrst-cakephp-restful/src",
             "Webhook\\": "./vendor/korditpteltd/kd-cakephp-webhooks/src",
             "SSO\\": "./vendor/korditpteltd/iksso-cakephp-sso/src",
-            "Gpa\\": "./plugins/Gpa/src"
+            "Gpa\\": "./plugins/Gpa/src",
+            "SchoolMonitoring\\": "plugins/SchoolMonitoring/src/"
         }
     },
     "autoload-dev": {
@@ -108,7 +109,8 @@
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests",
             "ControllerAction\\Test\\": "./plugins/ControllerAction/tests",
             "OAuth\\Test\\": "./plugins/OAuth/tests",
-            "Archive\\Test\\": "./plugins/Archive/tests"
+            "Archive\\Test\\": "./plugins/Archive/tests",
+            "SchoolMonitoring\\Test\\": "plugins/SchoolMonitoring/tests/"
         }
     },
     "scripts": {

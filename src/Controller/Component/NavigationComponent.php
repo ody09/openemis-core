@@ -473,7 +473,7 @@ class NavigationComponent extends Component
         $controllerName = $request->getParam('controller');
         $plugin = $request->getParam('plugin');
         if (
-            $pass[0] == 'index'
+            ($pass[0] ?? null) == 'index'
             && ($action == 'Institutions')
             && ($plugin == 'Institution')
             && ($controllerName == 'Institutions')
@@ -773,6 +773,36 @@ class NavigationComponent extends Component
                 'parent' => 'Institutions.Institutions.index',
                 'selected' => ['Institutions.Scanned'],
             ], //POCOR-8667 end
+
+            'Institution.SchoolMonitoring' => [
+                'title' => 'متابعة المدرسة',
+                'parent' => 'Institutions.Institutions.index',
+                'link' => false
+            ],
+
+            'Institutions.LessonPhotos.index' => [
+                'title' => 'صور الحصة',
+                'parent' => 'Institution.SchoolMonitoring',
+                'selected' => ['Institutions.LessonPhotos'],
+            ],
+
+            'Institutions.LessonPhotoReview.index' => [
+                'title' => 'سجل صور الحصص',
+                'parent' => 'Institution.SchoolMonitoring',
+                'selected' => ['Institutions.LessonPhotoReview'],
+            ],
+
+            'Institutions.TextbookLoans.index' => [
+                'title' => 'Textbook Loans',
+                'parent' => 'Institution.SchoolMonitoring',
+                'selected' => ['Institutions.TextbookLoans'],
+            ],
+
+            'Institutions.Clearance.index' => [
+                'title' => 'Clearance',
+                'parent' => 'Institution.SchoolMonitoring',
+                'selected' => ['Institutions.Clearance'],
+            ],
 
             'Institution.Behaviour' => [
                 'title' => 'Behaviour',

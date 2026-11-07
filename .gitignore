@@ -9,6 +9,8 @@ public.key
 schema-dump-default.lock
 tmp
 tmp/*
+storage/school-monitoring
+storage/school-monitoring/*
 tmp/Bake*
 tmp/debug*
 tmp/cache/*

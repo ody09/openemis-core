@@ -2830,6 +2830,31 @@ class InstitutionsController extends AppController
         // $this->ControllerAction->process(['alias' => __FUNCTION__, 'className' => 'Institution.InstitutionStaffAttendancesArchive']);
     }
 
+    public function LessonPhotos()
+    {
+        return $this->redirect('/LessonPhotos');
+    }
+
+    public function LessonPhotoReview()
+    {
+        $institutionId = (int)$this->getInstitutionID();
+        if ($institutionId > 0) {
+            $this->request->getSession()->write('Institution.Institutions.id', $institutionId);
+        }
+
+        return $this->redirect('/LessonPhotos/review' . ($institutionId > 0 ? '?institution_id=' . $institutionId : ''));
+    }
+
+    public function TextbookLoans()
+    {
+        return $this->redirect('/TextbookLoans/index?academic_period_id=34&security_user_id=4');
+    }
+
+    public function Clearance()
+    {
+        return $this->redirect('/Clearance/index?academic_period_id=34&security_user_id=4');
+    }
+
     public function InstitutionStaffAttendances($pass = 'index')
     {
         if ($pass == 'excel') {

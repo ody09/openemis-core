@@ -2965,13 +2965,11 @@ class ValidationBehavior extends Behavior
                 ->first();
 
             if (!empty($query->end_date)) {
-                $programmeEndDate = $query->end_date;
-
-                $programmeEndDate = new DateTime($programmeEndDate);
+                $programmeEndDate = self::parseDateValue($query->end_date);
                 $today = new DateTime('now');
                 $validationErrorMsg = '';
 
-                if ($programmeEndDate < $today) {
+                if ($programmeEndDate instanceof DateTime && $programmeEndDate < $today) {
                     $validationErrorMsg = "$registryAlias.education_grade_id.checkProgrammeEndDate";
                     return $model->getMessage($validationErrorMsg, ['sprintf' => [$programmeEndDate->format('d-m-Y')]]);
                 }
@@ -2996,12 +2994,10 @@ class ValidationBehavior extends Behavior
                 ->first();
 
             if (!empty($query->end_date)) {
-                $programmeEndDate = $query->end_date;
-
-                $programmeEndDate = new DateTime($programmeEndDate);
-                $studentStartDate = new DateTime($data['start_date']);
-
-                if ($programmeEndDate < $studentStartDate) {
+                $programmeEndDate = self::parseDateValue($query->end_date);
+                $studentStartDate = self::parseDateValue($data['start_date'] ?? null);
+                if ($programmeEndDate instanceof DateTime && $studentStartDate instanceof DateTime
+                    && $programmeEndDate < $studentStartDate) {
                     return false;
                 }
             }
@@ -3872,5 +3868,36 @@ class ValidationBehavior extends Behavior
         }
 
         return true;
+    }
+
+    private static function parseDateValue($value): ?DateTime
+    {
+        if ($value instanceof DateTime) {
+            return $value;
+        }
+        if ($value instanceof \DateTimeInterface) {
+            return new DateTime($value->format('Y-m-d H:i:s'));
+        }
+        if ($value === null || $value === '') {
+            return null;
+        }
+        $s = strtr((string)$value, [
+            '٠' => '0', '١' => '1', '٢' => '2', '٣' => '3', '٤' => '4',
+            '٥' => '5', '٦' => '6', '٧' => '7', '٨' => '8', '٩' => '9',
+            '۰' => '0', '۱' => '1', '۲' => '2', '۳' => '3', '۴' => '4',
+            '۵' => '5', '۶' => '6', '۷' => '7', '۸' => '8', '۹' => '9',
+        ]);
+        $s = trim((string)preg_replace('/[\x{200E}\x{200F}\x{202A}-\x{202E}\x{00A0}]/u', '', $s));
+        try {
+            return new DateTime($s);
+        } catch (\Exception $e) {
+            foreach (['d/m/Y', 'Y-m-d', 'd-m-Y'] as $format) {
+                $parsed = DateTime::createFromFormat($format, $s);
+                if ($parsed instanceof DateTime) {
+                    return $parsed;
+                }
+            }
+            return null;
+        }
     }
 }

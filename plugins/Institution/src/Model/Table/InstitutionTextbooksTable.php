@@ -476,10 +476,12 @@ class InstitutionTextbooksTable extends ControllerActionTable
                 ])
                 ->distinct(['security_user_id'])
                 ->toArray();
-            $textbookId = $entity->textbook_id;
-            $studentOptions = $this->InstitutionSubjectStudents->getEnrolledStudent($entity->academic_period_id, $entity->education_subject_id, $entity->education_grade_id);
+            $periodId = $request->getData($this->aliasField('academic_period_id')) ?: $entity->academic_period_id;
+            $subjectId = $request->getData($this->aliasField('education_subject_id')) ?: $entity->education_subject_id;
+            $gradeId = $request->getData($this->aliasField('education_grade_id')) ?: $entity->education_grade_id;
+            $studentOptions = $this->InstitutionSubjectStudents->getEnrolledStudent($periodId, $subjectId, $gradeId);
 
-            $staffOptions = $this->getAssignedStaffForInstitution($this->institutionId, $entity->education_subject_id, $entity->education_grade_id); //POCOR-7362
+            $staffOptions = $this->getAssignedStaffForInstitution($this->institutionId, $subjectId, $gradeId); //POCOR-7362
             $studentOptions = $studentOptions + $staffOptions; //POCOR-7362
 
             $this->studentOptions = $studentOptions;
